@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/daquan/CLionProjects/demo2/sort_insertion.c">
+		<Unit filename="/Users/daquan/CLionProjects/demo2/sort_insert.c">
 			<Option target="demo2"/>
 		</Unit>
 		<Unit filename="/Users/daquan/CLionProjects/demo2/CMakeLists.txt">

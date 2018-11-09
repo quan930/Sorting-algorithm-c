@@ -123,32 +123,32 @@ demo2/fast:
 	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/build
 .PHONY : demo2/fast
 
-sort_insertion.o: sort_insertion.c.o
+sort_insert.o: sort_insert.c.o
 
-.PHONY : sort_insertion.o
+.PHONY : sort_insert.o
 
 # target to build an object file
-sort_insertion.c.o:
-	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort_insertion.c.o
-.PHONY : sort_insertion.c.o
+sort_insert.c.o:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort_insert.c.o
+.PHONY : sort_insert.c.o
 
-sort_insertion.i: sort_insertion.c.i
+sort_insert.i: sort_insert.c.i
 
-.PHONY : sort_insertion.i
+.PHONY : sort_insert.i
 
 # target to preprocess a source file
-sort_insertion.c.i:
-	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort_insertion.c.i
-.PHONY : sort_insertion.c.i
+sort_insert.c.i:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort_insert.c.i
+.PHONY : sort_insert.c.i
 
-sort_insertion.s: sort_insertion.c.s
+sort_insert.s: sort_insert.c.s
 
-.PHONY : sort_insertion.s
+.PHONY : sort_insert.s
 
 # target to generate assembly for a file
-sort_insertion.c.s:
-	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort_insertion.c.s
-.PHONY : sort_insertion.c.s
+sort_insert.c.s:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort_insert.c.s
+.PHONY : sort_insert.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... demo2"
-	@echo "... sort_insertion.o"
-	@echo "... sort_insertion.i"
-	@echo "... sort_insertion.s"
+	@echo "... sort_insert.o"
+	@echo "... sort_insert.i"
+	@echo "... sort_insert.s"
 .PHONY : help
 
 
