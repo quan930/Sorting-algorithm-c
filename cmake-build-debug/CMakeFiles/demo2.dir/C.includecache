@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/daquan/CLionProjects/demo2/sort_insertion.c
+stdio.h
+/Users/daquan/CLionProjects/demo2/stdio.h
+
