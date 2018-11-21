@@ -3,4 +3,4 @@ project(demo2 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(demo2 sort_insert.c)
+add_executable(demo2 shell_sort.c)

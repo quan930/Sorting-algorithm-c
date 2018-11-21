@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/daquan/CLionProjects/demo2/sort_insert.c" "/Users/daquan/CLionProjects/demo2/cmake-build-debug/CMakeFiles/demo2.dir/sort_insert.c.o"
+  "/Users/daquan/CLionProjects/demo2/shell_sort.c" "/Users/daquan/CLionProjects/demo2/cmake-build-debug/CMakeFiles/demo2.dir/shell_sort.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

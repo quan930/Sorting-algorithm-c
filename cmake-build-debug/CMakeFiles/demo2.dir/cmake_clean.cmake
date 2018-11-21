@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/demo2.dir/sort_insert.c.o"
+  "CMakeFiles/demo2.dir/shell_sort.c.o"
   "demo2.pdb"
   "demo2"
 )
