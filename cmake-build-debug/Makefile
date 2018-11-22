@@ -123,32 +123,32 @@ demo2/fast:
 	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/build
 .PHONY : demo2/fast
 
-shell_sort.o: shell_sort.c.o
+test.o: test.c.o
 
-.PHONY : shell_sort.o
+.PHONY : test.o
 
 # target to build an object file
-shell_sort.c.o:
-	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/shell_sort.c.o
-.PHONY : shell_sort.c.o
+test.c.o:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/test.c.o
+.PHONY : test.c.o
 
-shell_sort.i: shell_sort.c.i
+test.i: test.c.i
 
-.PHONY : shell_sort.i
+.PHONY : test.i
 
 # target to preprocess a source file
-shell_sort.c.i:
-	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/shell_sort.c.i
-.PHONY : shell_sort.c.i
+test.c.i:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/test.c.i
+.PHONY : test.c.i
 
-shell_sort.s: shell_sort.c.s
+test.s: test.c.s
 
-.PHONY : shell_sort.s
+.PHONY : test.s
 
 # target to generate assembly for a file
-shell_sort.c.s:
-	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/shell_sort.c.s
-.PHONY : shell_sort.c.s
+test.c.s:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/test.c.s
+.PHONY : test.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... demo2"
-	@echo "... shell_sort.o"
-	@echo "... shell_sort.i"
-	@echo "... shell_sort.s"
+	@echo "... test.o"
+	@echo "... test.i"
+	@echo "... test.s"
 .PHONY : help
 
 

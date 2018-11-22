@@ -57,27 +57,27 @@ include CMakeFiles/demo2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/demo2.dir/flags.make
 
-CMakeFiles/demo2.dir/shell_sort.c.o: CMakeFiles/demo2.dir/flags.make
-CMakeFiles/demo2.dir/shell_sort.c.o: ../shell_sort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daquan/CLionProjects/demo2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/demo2.dir/shell_sort.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/demo2.dir/shell_sort.c.o   -c /Users/daquan/CLionProjects/demo2/shell_sort.c
+CMakeFiles/demo2.dir/test.c.o: CMakeFiles/demo2.dir/flags.make
+CMakeFiles/demo2.dir/test.c.o: ../test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daquan/CLionProjects/demo2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/demo2.dir/test.c.o"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/demo2.dir/test.c.o   -c /Users/daquan/CLionProjects/demo2/test.c
 
-CMakeFiles/demo2.dir/shell_sort.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/demo2.dir/shell_sort.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daquan/CLionProjects/demo2/shell_sort.c > CMakeFiles/demo2.dir/shell_sort.c.i
+CMakeFiles/demo2.dir/test.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/demo2.dir/test.c.i"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daquan/CLionProjects/demo2/test.c > CMakeFiles/demo2.dir/test.c.i
 
-CMakeFiles/demo2.dir/shell_sort.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/demo2.dir/shell_sort.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daquan/CLionProjects/demo2/shell_sort.c -o CMakeFiles/demo2.dir/shell_sort.c.s
+CMakeFiles/demo2.dir/test.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/demo2.dir/test.c.s"
+	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daquan/CLionProjects/demo2/test.c -o CMakeFiles/demo2.dir/test.c.s
 
 # Object files for target demo2
 demo2_OBJECTS = \
-"CMakeFiles/demo2.dir/shell_sort.c.o"
+"CMakeFiles/demo2.dir/test.c.o"
 
 # External object files for target demo2
 demo2_EXTERNAL_OBJECTS =
 
-demo2: CMakeFiles/demo2.dir/shell_sort.c.o
+demo2: CMakeFiles/demo2.dir/test.c.o
 demo2: CMakeFiles/demo2.dir/build.make
 demo2: CMakeFiles/demo2.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/daquan/CLionProjects/demo2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable demo2"

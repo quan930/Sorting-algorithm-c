@@ -1,16 +1,13 @@
 #include "stdio.h"
 #include "time.h"
-int main(){
-    /**
-     * 选择排序
-     */
-    clock_t start, finish;
-    int array[] = {3,1,4,2,5,7,6,8,7,76,100,23,10,3};
-    double total_time;
-    int length = sizeof(array)/ sizeof(int);
+/**
+ * 选择排序
+ * @param array 数组
+ * @param length 长度
+ */
+void _select_sort(int *array,int length){
     int temp;
     int position;
-    start = clock();
     for (int i = 0; i < length-1; ++i) {
         temp = array[i];
         position = i;
@@ -24,11 +21,27 @@ int main(){
             array[position] = array[i];
             array[i] = temp;
         }
+//        for (int j = 0; j <= length; ++j) {
+//            printf("%d\t",array[j]);
+//        }
+//        printf("\n");
     }
+}
+ /**
+  * 测试选择排序时间
+  * @param array 数组
+  * @param length 数组长度
+  * @return 选择排序时间(秒)
+  */
+double select_sort(int *array,int length){
+    clock_t start,finish;
+    double time;
+    start = clock();
+    _select_sort(array,length);
     finish = clock();
-    total_time = (double)(finish - start) / CLOCKS_PER_SEC;
-    printf("%f\n",total_time);
-    for (int i = 0; i < length; ++i) {
-        printf("%d\t",array[i]);
-    }
+    time = (double)(finish - start) / CLOCKS_PER_SEC;
+//    for (int i = 0; i < length; ++i) {
+//        printf("%d\n",array[i]);
+//    }
+    return time;
 }
