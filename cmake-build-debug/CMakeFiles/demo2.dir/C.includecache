@@ -6,47 +6,57 @@
 
 #IncludeRegexTransform: 
 
-/Users/daquan/CLionProjects/demo2/bubble_sort.c
+/Users/daquan/CLionProjects/Sorting-algorithm-c/bubble_sort.c
 stdio.h
-/Users/daquan/CLionProjects/demo2/stdio.h
+/Users/daquan/CLionProjects/Sorting-algorithm-c/stdio.h
 time.h
-/Users/daquan/CLionProjects/demo2/time.h
+/Users/daquan/CLionProjects/Sorting-algorithm-c/time.h
 
-/Users/daquan/CLionProjects/demo2/insert_sort.c
+/Users/daquan/CLionProjects/Sorting-algorithm-c/insert_sort.c
 time.h
 -
 stdio.h
-/Users/daquan/CLionProjects/demo2/stdio.h
+/Users/daquan/CLionProjects/Sorting-algorithm-c/stdio.h
 
-/Users/daquan/CLionProjects/demo2/random_data.c
+/Users/daquan/CLionProjects/Sorting-algorithm-c/merge_sort.c
+time.h
+-
+stdio.h
+/Users/daquan/CLionProjects/Sorting-algorithm-c/stdio.h
 stdlib.h
-/Users/daquan/CLionProjects/demo2/stdlib.h
-stdio.h
-/Users/daquan/CLionProjects/demo2/stdio.h
+-
 
-/Users/daquan/CLionProjects/demo2/select_sort.c
+/Users/daquan/CLionProjects/Sorting-algorithm-c/random_data.c
+stdlib.h
+/Users/daquan/CLionProjects/Sorting-algorithm-c/stdlib.h
 stdio.h
-/Users/daquan/CLionProjects/demo2/stdio.h
+/Users/daquan/CLionProjects/Sorting-algorithm-c/stdio.h
+
+/Users/daquan/CLionProjects/Sorting-algorithm-c/select_sort.c
+stdio.h
+/Users/daquan/CLionProjects/Sorting-algorithm-c/stdio.h
 time.h
-/Users/daquan/CLionProjects/demo2/time.h
+/Users/daquan/CLionProjects/Sorting-algorithm-c/time.h
 
-/Users/daquan/CLionProjects/demo2/shell_sort.c
+/Users/daquan/CLionProjects/Sorting-algorithm-c/shell_sort.c
 time.h
 -
 stdio.h
-/Users/daquan/CLionProjects/demo2/stdio.h
+/Users/daquan/CLionProjects/Sorting-algorithm-c/stdio.h
 
-/Users/daquan/CLionProjects/demo2/test.c
+/Users/daquan/CLionProjects/Sorting-algorithm-c/test.c
 stdio.h
-/Users/daquan/CLionProjects/demo2/stdio.h
+/Users/daquan/CLionProjects/Sorting-algorithm-c/stdio.h
 random_data.c
-/Users/daquan/CLionProjects/demo2/random_data.c
+/Users/daquan/CLionProjects/Sorting-algorithm-c/random_data.c
 select_sort.c
-/Users/daquan/CLionProjects/demo2/select_sort.c
+/Users/daquan/CLionProjects/Sorting-algorithm-c/select_sort.c
 bubble_sort.c
-/Users/daquan/CLionProjects/demo2/bubble_sort.c
+/Users/daquan/CLionProjects/Sorting-algorithm-c/bubble_sort.c
 insert_sort.c
-/Users/daquan/CLionProjects/demo2/insert_sort.c
+/Users/daquan/CLionProjects/Sorting-algorithm-c/insert_sort.c
 shell_sort.c
-/Users/daquan/CLionProjects/demo2/shell_sort.c
+/Users/daquan/CLionProjects/Sorting-algorithm-c/shell_sort.c
+merge_sort.c
+/Users/daquan/CLionProjects/Sorting-algorithm-c/merge_sort.c
 

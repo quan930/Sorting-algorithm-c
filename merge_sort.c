@@ -1,53 +1,81 @@
-//
-// Created by daquan on 2018/11/22.
-//
+#include <time.h>
 #include "stdio.h"
-
-int main(){
-    printf("hello world\n");
-    int array1[]={2,3,6,8};
-    int array2[]={1,4,5,7};
-    int array[8];
-    int length1 = sizeof(array1)/ sizeof(int);
-    int length2 = sizeof(array2)/ sizeof(int);
-    int *p1 = array1;
-    int *p2 = array2;
-    int *p = array;
-
-    int m = 0;
-    int move1=0;
-    int move2=0;
-
-    while (m<8){
-        m++;
-        if (move1>=length1){
-            *p = *p2;
-            p2++;
-            move2++;
-            p++;
-            continue;
-        }
-        if (move2>=length2){
-            *p = *p1;
-            p1++;
-            move1++;
-            p++;
-            continue;
-        }
-        if (*p1<*p2){
-            *p = *p1;
-            p1++;
-            move1++;
+#include <stdlib.h>
+/**
+ * 归并
+ * @param tArr 临时数组
+ * @param lArr 左数组
+ * @param lLe 左数组长度
+ * @param rArr 右数组
+ * @param rLe 右数组长度
+ */
+void __merge(int *tArr,int *lArr,int lLe,int *rArr,int rLe){
+    int lArrPos=0;//临时数组位置
+    int rArrPos = 0;//左数组位置
+    int tArrPos = 0;//右数组位置
+    while ((lArrPos < lLe) && (rArrPos < rLe)){//归并
+        if (lArr[lArrPos] < rArr[rArrPos]){
+            tArr[tArrPos] = lArr[lArrPos];
+            lArrPos++;
         } else{
-            *p = *p2;
-            p2++;
-            move2++;
+            tArr[tArrPos] = rArr[rArrPos];
+            rArrPos++;
         }
-        p++;
+        tArrPos++;
     }
+    while (lArrPos<lLe){//剩余数组归并
+        tArr[tArrPos] = lArr[lArrPos];
+        lArrPos++;
+        tArrPos++;
+    }
+    while (rArrPos<rLe){//剩余数组归并
+        tArr[tArrPos] = rArr[rArrPos];
+        rArrPos++;
+        tArrPos++;
+    }
+    for (int i = 0; i < lLe+rLe; ++i) {//copy
+        lArr[i]= tArr[i];
+    }
+}
+/**
+ * 归并排序
+ * @param array 数组
+ * @param length 数组长度
+ */
+void _merge_sort(int *array,int length){
+    int * temp;
+    temp = malloc(length* sizeof(int));
+    for (int i = 1; i <= length;i+=i) {//i 子数组大小
+        for (int j = 0; j < length-i; j+=2*i) {//j 子数组索引
+            __merge(temp,array+j,i,array+j+i,length<j+2*i?length-j-i:i);//左---索引:j,长度:i    右---索引:j+i,长度:(length<j+2*i?length-j-i:i)//需要验证是否越界
+        }
+//        for (int j = 0; j < length; ++j) {
+//            if (j%(2*i)==0&&j!=0)
+//                printf("|");
+//            else
+//                printf(" ");
+//            printf("%d\t",array[j]);
+//        }
+//        printf("\n");
+    }
+    free(temp);
+}
 
-    for (int i = 0; i < length1+length2; ++i) {
-        printf("%d\n",array[i]);
-    }
-    return 0;
+/**
+ * 测试归并排序时间
+ * @param array 数组
+ * @param length 数组长度
+ * @return 测试时间（秒）
+ */
+double merge_sort(int *array,int length){
+    clock_t start,finish;
+    double time;
+    start = clock();
+    _merge_sort(array,length);
+    finish = clock();
+    time = (double)(finish - start) / CLOCKS_PER_SEC;
+//    for (int i = 0; i < length; ++i) {
+//        printf("%d\n",array[i]);
+//    }
+    return time;
 }

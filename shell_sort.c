@@ -43,7 +43,7 @@ void _shell_sort(int * array,int length){
         increment_max = i;
     }
     //分别对每个分组进行直接插入排序
-    for (int i = increment_max; i >= 1 ; i=i/3) {
+    for (int i = increment_max; i >= 1 ; i=i/3) {//将数组变为i有序
         for (int j = 0; (j<length-i)&&(j<i); ++j) {
             _shell_insert_sort(array,length,j,i);//插入排序
         }

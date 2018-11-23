@@ -3,6 +3,7 @@
 
 CMakeFiles/demo2.dir/test.c.o: ../bubble_sort.c
 CMakeFiles/demo2.dir/test.c.o: ../insert_sort.c
+CMakeFiles/demo2.dir/test.c.o: ../merge_sort.c
 CMakeFiles/demo2.dir/test.c.o: ../random_data.c
 CMakeFiles/demo2.dir/test.c.o: ../select_sort.c
 CMakeFiles/demo2.dir/test.c.o: ../shell_sort.c
