@@ -13,6 +13,8 @@ void __merge(int *tArr,int *lArr,int lLe,int *rArr,int rLe){
     int lArrPos=0;//临时数组位置
     int rArrPos = 0;//左数组位置
     int tArrPos = 0;//右数组位置
+    if (lArr[lLe-1]<=rArr[0])//归并判断
+        return;
     while ((lArrPos < lLe) && (rArrPos < rLe)){//归并
         if (lArr[lArrPos] < rArr[rArrPos]){
             tArr[tArrPos] = lArr[lArrPos];
@@ -38,13 +40,13 @@ void __merge(int *tArr,int *lArr,int lLe,int *rArr,int rLe){
     }
 }
 /**
- * 归并排序
+ * 归并排序(至低向上)
  * @param array 数组
  * @param length 数组长度
  */
 void _merge_sort(int *array,int length){
     int * temp;
-    temp = malloc(length* sizeof(int));
+    temp = malloc(length* sizeof(int));//分配临时数组内存空间
     for (int i = 1; i <= length;i+=i) {//i 子数组大小
         for (int j = 0; j < length-i; j+=2*i) {//j 子数组索引
             __merge(temp,array+j,i,array+j+i,length<j+2*i?length-j-i:i);//左---索引:j,长度:i    右---索引:j+i,长度:(length<j+2*i?length-j-i:i)//需要验证是否越界
@@ -58,7 +60,7 @@ void _merge_sort(int *array,int length){
 //        }
 //        printf("\n");
     }
-    free(temp);
+    free(temp);//释放
 }
 
 /**

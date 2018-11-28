@@ -26,6 +26,12 @@ stdio.h
 stdlib.h
 -
 
+/Users/daquan/CLionProjects/Sorting-algorithm-c/quick_sort.c
+stdio.h
+/Users/daquan/CLionProjects/Sorting-algorithm-c/stdio.h
+time.h
+/Users/daquan/CLionProjects/Sorting-algorithm-c/time.h
+
 /Users/daquan/CLionProjects/Sorting-algorithm-c/random_data.c
 stdlib.h
 /Users/daquan/CLionProjects/Sorting-algorithm-c/stdlib.h
@@ -59,4 +65,6 @@ shell_sort.c
 /Users/daquan/CLionProjects/Sorting-algorithm-c/shell_sort.c
 merge_sort.c
 /Users/daquan/CLionProjects/Sorting-algorithm-c/merge_sort.c
+quick_sort.c
+/Users/daquan/CLionProjects/Sorting-algorithm-c/quick_sort.c
 
