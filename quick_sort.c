@@ -58,7 +58,7 @@ void _quick_sort(int *array,int length){
         return;
     }
     int med = median(array[0],array[length/2],array[length-1]);
-//    printf("\n三取样切分(值):%d\n",med);
+//    printf("三取样切分(值):%d\n",med);
     int *pInt = array;
     int lt=-1;
     int gt=length;
@@ -104,7 +104,7 @@ double quick_sort(int *array,int length){
     finish = clock();
     time = (double)(finish - start) / CLOCKS_PER_SEC;
 //    for (int i = 0; i < length; ++i) {
-//        printf("%d\n",array[i]);
+//        printf("%d\t",array[i]);
 //    }
     return time;
 }
