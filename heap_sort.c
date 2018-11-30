@@ -81,6 +81,7 @@ int delete_head(int *array,int length){
  * 堆排序
  * @param array 数组
  * @param length 长度
+ * 分配临时空间，不分配也可
  */
 void _heap_sort(int *array,int length){
     int *temp;

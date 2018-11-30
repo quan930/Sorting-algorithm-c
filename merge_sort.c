@@ -10,9 +10,9 @@
  * @param rLe 右数组长度
  */
 void __merge(int *tArr,int *lArr,int lLe,int *rArr,int rLe){
-    int lArrPos=0;//临时数组位置
-    int rArrPos = 0;//左数组位置
-    int tArrPos = 0;//右数组位置
+    int lArrPos=0;//左数组位置
+    int rArrPos = 0;//右数组位置
+    int tArrPos = 0;//临时数组位置
     if (lArr[lLe-1]<=rArr[0])//归并判断
         return;
     while ((lArrPos < lLe) && (rArrPos < rLe)){//归并

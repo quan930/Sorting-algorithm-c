@@ -12,6 +12,14 @@ stdio.h
 time.h
 /Users/daquan/CLionProjects/Sorting-algorithm-c/time.h
 
+/Users/daquan/CLionProjects/Sorting-algorithm-c/counting_sort.c
+stdio.h
+/Users/daquan/CLionProjects/Sorting-algorithm-c/stdio.h
+time.h
+/Users/daquan/CLionProjects/Sorting-algorithm-c/time.h
+stdlib.h
+-
+
 /Users/daquan/CLionProjects/Sorting-algorithm-c/heap_sort.c
 stdio.h
 /Users/daquan/CLionProjects/Sorting-algorithm-c/stdio.h
@@ -83,4 +91,6 @@ quick_sort.c
 /Users/daquan/CLionProjects/Sorting-algorithm-c/quick_sort.c
 heap_sort.c
 /Users/daquan/CLionProjects/Sorting-algorithm-c/heap_sort.c
+counting_sort.c
+/Users/daquan/CLionProjects/Sorting-algorithm-c/counting_sort.c
 
