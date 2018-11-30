@@ -1,7 +1,7 @@
 #include "stdlib.h"
 #include "stdio.h"
  /**
-  * 生成随机数据
+  * 生成随机数据 0~range
   * @param array 数组指针
   * @param length 数组长度
   * @param range 数据范围

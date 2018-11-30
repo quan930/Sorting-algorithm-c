@@ -7,6 +7,7 @@
  * @param array 数组
  * @param length 长度
  * @param range 数组范围 0～range
+ *  作为一种线性时间复杂度的排序，计数排序要求输入的数据必须是有确定范围的整数。
  */
 void _counting_sort(int *array,int length,int range){
     int *count;//计数数组

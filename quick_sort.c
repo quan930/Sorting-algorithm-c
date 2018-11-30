@@ -21,7 +21,7 @@ int median( int a, int b, int c )
  * @param array 数组
  * @param length 长度
  */
-void q_insert_sort(int *array,int length){
+void q_insertion_sort(int *array,int length){
     int position = -1;
     int temp;
     for (int i = 1; i < length; ++i) {
@@ -54,7 +54,7 @@ void q_insert_sort(int *array,int length){
  */
 void _quick_sort(int *array,int length){
     if (length<15){
-        q_insert_sort(array,length);
+        q_insertion_sort(array,length);
         return;
     }
     int med = median(array[0],array[length/2],array[length-1]);

@@ -4,12 +4,12 @@
 CMakeFiles/demo2.dir/test.c.o: ../bubble_sort.c
 CMakeFiles/demo2.dir/test.c.o: ../counting_sort.c
 CMakeFiles/demo2.dir/test.c.o: ../heap_sort.c
-CMakeFiles/demo2.dir/test.c.o: ../insert_sort.c
+CMakeFiles/demo2.dir/test.c.o: ../insertion_sort.c
 CMakeFiles/demo2.dir/test.c.o: ../merge_sort.c
 CMakeFiles/demo2.dir/test.c.o: ../print_heap.c
 CMakeFiles/demo2.dir/test.c.o: ../quick_sort.c
 CMakeFiles/demo2.dir/test.c.o: ../random_data.c
-CMakeFiles/demo2.dir/test.c.o: ../select_sort.c
+CMakeFiles/demo2.dir/test.c.o: ../selection_sort.c
 CMakeFiles/demo2.dir/test.c.o: ../shell_sort.c
 CMakeFiles/demo2.dir/test.c.o: ../test.c
 

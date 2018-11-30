@@ -30,7 +30,7 @@ time.h
 print_heap.c
 /Users/daquan/CLionProjects/Sorting-algorithm-c/print_heap.c
 
-/Users/daquan/CLionProjects/Sorting-algorithm-c/insert_sort.c
+/Users/daquan/CLionProjects/Sorting-algorithm-c/insertion_sort.c
 time.h
 -
 stdio.h
@@ -60,7 +60,7 @@ stdlib.h
 stdio.h
 /Users/daquan/CLionProjects/Sorting-algorithm-c/stdio.h
 
-/Users/daquan/CLionProjects/Sorting-algorithm-c/select_sort.c
+/Users/daquan/CLionProjects/Sorting-algorithm-c/selection_sort.c
 stdio.h
 /Users/daquan/CLionProjects/Sorting-algorithm-c/stdio.h
 time.h
@@ -77,12 +77,12 @@ stdio.h
 /Users/daquan/CLionProjects/Sorting-algorithm-c/stdio.h
 random_data.c
 /Users/daquan/CLionProjects/Sorting-algorithm-c/random_data.c
-select_sort.c
-/Users/daquan/CLionProjects/Sorting-algorithm-c/select_sort.c
+selection_sort.c
+/Users/daquan/CLionProjects/Sorting-algorithm-c/selection_sort.c
 bubble_sort.c
 /Users/daquan/CLionProjects/Sorting-algorithm-c/bubble_sort.c
-insert_sort.c
-/Users/daquan/CLionProjects/Sorting-algorithm-c/insert_sort.c
+insertion_sort.c
+/Users/daquan/CLionProjects/Sorting-algorithm-c/insertion_sort.c
 shell_sort.c
 /Users/daquan/CLionProjects/Sorting-algorithm-c/shell_sort.c
 merge_sort.c

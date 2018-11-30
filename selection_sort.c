@@ -5,7 +5,7 @@
  * @param array 数组
  * @param length 长度
  */
-void _select_sort(int *array,int length){
+void _selection_sort(int *array,int length){
     int temp;
     int position;
     for (int i = 0; i < length-1; ++i) {
@@ -27,17 +27,17 @@ void _select_sort(int *array,int length){
 //        printf("\n");
     }
 }
- /**
-  * 测试选择排序时间
-  * @param array 数组
-  * @param length 数组长度
-  * @return 选择排序时间(秒)
-  */
-double select_sort(int *array,int length){
+/**
+ * 测试选择排序时间
+ * @param array 数组
+ * @param length 数组长度
+ * @return 选择排序时间(秒)
+ */
+double selection_sort(int *array,int length){
     clock_t start,finish;
     double time;
     start = clock();
-    _select_sort(array,length);
+    _selection_sort(array,length);
     finish = clock();
     time = (double)(finish - start) / CLOCKS_PER_SEC;
 //    for (int i = 0; i < length; ++i) {

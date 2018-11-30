@@ -6,7 +6,7 @@
  * @param array 数组
  * @param length 长度
  */
-void _insert_sort(int *array,int length){
+void _insertion_sort(int *array,int length){
     int position = -1;
     int temp;
     for (int i = 1; i < length; ++i) {
@@ -35,11 +35,11 @@ void _insert_sort(int *array,int length){
  * @param length 长度
  * @return 插入排序时间(秒)
  */
-double insert_sort(int *array,int length){
+double insertion_sort(int *array,int length){
     clock_t start,finish;
     double time;
     start = clock();
-    _insert_sort(array,length);
+    _insertion_sort(array,length);
     finish = clock();
     time = (double)(finish - start) / CLOCKS_PER_SEC;
 //    for (int i = 0; i < length; ++i) {

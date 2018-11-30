@@ -7,7 +7,7 @@
  * @param start 开始位置
  * @param increment 增量
  */
-void _shell_insert_sort(int * array,int length,int start,int increment) {
+void _shell_insertion_sort(int * array,int length,int start,int increment) {
     int position = -1;
     int temp;
     for (int i = start+increment; i < length; i=i+increment) {
@@ -45,7 +45,7 @@ void _shell_sort(int * array,int length){
     //分别对每个分组进行直接插入排序
     for (int i = increment_max; i >= 1 ; i=i/3) {//将数组变为i有序
         for (int j = 0; (j<length-i)&&(j<i); ++j) {
-            _shell_insert_sort(array,length,j,i);//插入排序
+            _shell_insertion_sort(array,length,j,i);//插入排序
         }
     }
 }
