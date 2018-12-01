@@ -146,3 +146,18 @@ void free_linked(Node * first) //释放链表
         free(p);
     }
 }
+
+int copy_free(Node *first,int *array){
+    Node * p;
+    int count = 0;
+    while(first != NULL)
+    {
+        p = first;
+        *array=p->item;
+        array++;
+        count++;
+        first = first->next;
+        free(p);
+    }
+    return count;
+}

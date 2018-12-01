@@ -22,8 +22,7 @@ void _bucket_sort(int *array,int length,int range){
 //    }
     int data_size = 0;
     for (int i = 0; i < range; ++i) {//拷贝到原数组，并释放链表
-        data_size =data_size+copy(bucket[i],&array[data_size]);
-        free_linked(bucket[i]);//释放链表
+        data_size =data_size+copy_free(bucket[i],&array[data_size]);
     }
 }
 
