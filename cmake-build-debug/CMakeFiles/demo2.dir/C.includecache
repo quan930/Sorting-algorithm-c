@@ -12,6 +12,14 @@ stdio.h
 time.h
 /Users/daquan/CLionProjects/Sorting-algorithm-c/time.h
 
+/Users/daquan/CLionProjects/Sorting-algorithm-c/bucket_sort.c
+stdio.h
+/Users/daquan/CLionProjects/Sorting-algorithm-c/stdio.h
+linked_list.c
+/Users/daquan/CLionProjects/Sorting-algorithm-c/linked_list.c
+time.h
+/Users/daquan/CLionProjects/Sorting-algorithm-c/time.h
+
 /Users/daquan/CLionProjects/Sorting-algorithm-c/counting_sort.c
 stdio.h
 /Users/daquan/CLionProjects/Sorting-algorithm-c/stdio.h
@@ -35,6 +43,12 @@ time.h
 -
 stdio.h
 /Users/daquan/CLionProjects/Sorting-algorithm-c/stdio.h
+
+/Users/daquan/CLionProjects/Sorting-algorithm-c/linked_list.c
+stdio.h
+/Users/daquan/CLionProjects/Sorting-algorithm-c/stdio.h
+stdlib.h
+/Users/daquan/CLionProjects/Sorting-algorithm-c/stdlib.h
 
 /Users/daquan/CLionProjects/Sorting-algorithm-c/merge_sort.c
 time.h
@@ -93,4 +107,6 @@ heap_sort.c
 /Users/daquan/CLionProjects/Sorting-algorithm-c/heap_sort.c
 counting_sort.c
 /Users/daquan/CLionProjects/Sorting-algorithm-c/counting_sort.c
+bucket_sort.c
+/Users/daquan/CLionProjects/Sorting-algorithm-c/bucket_sort.c
 

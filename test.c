@@ -8,13 +8,14 @@
 #include "quick_sort.c"
 #include "heap_sort.c"
 #include "counting_sort.c"
-#define LENGTH 100
+#include "bucket_sort.c"
+#define LENGTH 100000
 /**
- * 11:9
+ * 2018-11-9
  */
 int main(){
     int array[LENGTH];
-    int range=LENGTH;
+    int range=10000;
     printf("length:%d\trange:0~%d\n",LENGTH,range);
     printf("--------------比较排序--------------------\n");
     printf("冒泡排序:\t%f秒\n",bubble_sort(random_data(array,LENGTH,range),LENGTH));
@@ -26,4 +27,6 @@ int main(){
     printf("快速排序:\t%f秒\n",quick_sort(random_data(array,LENGTH,range),LENGTH));
     printf("--------------非比较排序--------------------\n");
     printf("计数排序:\t%f秒\n",counting_sort(random_data(array,LENGTH,range),LENGTH,range));
+    printf("桶排序:\t%f秒\n",bucket_sort(random_data(array,LENGTH,range),LENGTH,range));
+    return 0;
 }

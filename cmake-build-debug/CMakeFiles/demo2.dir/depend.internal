@@ -3,9 +3,11 @@
 
 CMakeFiles/demo2.dir/test.c.o
  /Users/daquan/CLionProjects/Sorting-algorithm-c/bubble_sort.c
+ /Users/daquan/CLionProjects/Sorting-algorithm-c/bucket_sort.c
  /Users/daquan/CLionProjects/Sorting-algorithm-c/counting_sort.c
  /Users/daquan/CLionProjects/Sorting-algorithm-c/heap_sort.c
  /Users/daquan/CLionProjects/Sorting-algorithm-c/insertion_sort.c
+ /Users/daquan/CLionProjects/Sorting-algorithm-c/linked_list.c
  /Users/daquan/CLionProjects/Sorting-algorithm-c/merge_sort.c
  /Users/daquan/CLionProjects/Sorting-algorithm-c/print_heap.c
  /Users/daquan/CLionProjects/Sorting-algorithm-c/quick_sort.c
