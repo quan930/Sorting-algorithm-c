@@ -1,7 +1,57 @@
+//
+// Created by daquan on 2018/12/5.
+//
 #include "stdio.h"
-#include "stdlib.h"
-#include "time.h"
-#include "print_heap.c"
+/**
+ * 计算堆的行数 打印堆 子方法
+ * @param length 堆的长度
+ * @return 返回堆的行数
+ */
+int find_lines(int length){
+    int i=1;
+    int lines = 0;
+    while (i<=length){
+        i=i*2;
+        lines++;
+    }
+    return lines;
+}
+/**
+ * 计算堆的某行间隔
+ * @param line 堆的行数
+ * @param lines 堆的总行数
+ * @return 间隔大小
+ */
+int find_interval(int line,int lines){
+    int m=0;
+    for (int i = lines; i >= line ; --i) {
+        m=m*2+1;
+    }
+    return m;
+}
+/**
+ * 打印堆
+ * @param array 数组
+ * @param length 堆长度/数组长度-1  注:索引0为null
+ */
+void print_heap(int *array,int length){
+    int lines = find_lines(length);
+    int line = 1;
+    for (int i = 1; i <= length; i=2*i) {
+        int interval = find_interval(line,lines);
+        for (int j = 0; j < interval/2; ++j) {
+            printf(" ");
+        }
+        for (int j = 0; j < i&&i+j<=length; ++j) {
+            printf("%d",array[i+j]);
+            for (int k = 0; k < interval; ++k) {
+                printf(" ");
+            }
+        }
+        printf("\n");
+        line++;
+    }
+}
 /**
  * 向堆插入元素
  * @param array 数组
@@ -76,47 +126,4 @@ int delete_head(int *array,int length){
     }
 //    print_heap(array,length-1);
     return max;
-}
-/**
- * 堆排序
- * @param array 数组
- * @param length 长度
- * 分配临时空间，不分配也可
- */
-void _heap_sort(int *array,int length){
-    int *temp;
-    temp = (int *)malloc(sizeof(int)*(length+1));//分配临时数组内存空间length+1 0为null
-//    for (int i = 0; i < length; ++i) {
-//        printf("%d\t",array[i]);
-//    }
-//    printf("\n");
-    for (int i = 1; i <= length ; ++i) {//插入堆
-        insert_head(temp,i,array[i-1]);
-    }
-    for (int i = length; i > 0 ; --i) {//取出堆
-        array[length-i] = delete_head(temp,i);
-    }
-    free(temp);//释放
-//    for (int i = 0; i < length; ++i) {
-//        printf("%d\t",array[i]);
-//    }
-//    printf("\n");
-}
-/**
- * 测试堆排序时间
- * @param array 数组
- * @param length 数组长度
- * @return 排序时间(秒)
- */
-double heap_sort(int *array,int length){
-    clock_t start,finish;
-    double time;
-    start = clock();
-    _heap_sort(array,length);
-    finish = clock();
-    time = (double)(finish - start) / CLOCKS_PER_SEC;
-//    for (int i = 0; i < length; ++i) {
-//        printf("%d\n",array[i]);
-//    }
-    return time;
 }

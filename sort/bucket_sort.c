@@ -1,6 +1,7 @@
 #include "stdio.h"
-#include "linked_list.c"
+#include "stdlib.h"
 #include "time.h"
+#include "../header/linked_list.h"
 /**
  * 桶排序
  * @param array 数组

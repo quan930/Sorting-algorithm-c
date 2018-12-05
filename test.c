@@ -1,14 +1,6 @@
 #include "stdio.h"
-#include "random_data.c"
-#include "selection_sort.c"
-#include "bubble_sort.c"
-#include "insertion_sort.c"
-#include "shell_sort.c"
-#include "merge_sort.c"
-#include "quick_sort.c"
-#include "heap_sort.c"
-#include "counting_sort.c"
-#include "bucket_sort.c"
+#include "header/random_data.h"
+#include "header/sort.h"
 #define LENGTH 100000
 /**
  * 2018-11-9

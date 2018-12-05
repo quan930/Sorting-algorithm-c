@@ -123,6 +123,249 @@ demo2/fast:
 	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/build
 .PHONY : demo2/fast
 
+sort/bubble_sort.o: sort/bubble_sort.c.o
+
+.PHONY : sort/bubble_sort.o
+
+# target to build an object file
+sort/bubble_sort.c.o:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort/bubble_sort.c.o
+.PHONY : sort/bubble_sort.c.o
+
+sort/bubble_sort.i: sort/bubble_sort.c.i
+
+.PHONY : sort/bubble_sort.i
+
+# target to preprocess a source file
+sort/bubble_sort.c.i:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort/bubble_sort.c.i
+.PHONY : sort/bubble_sort.c.i
+
+sort/bubble_sort.s: sort/bubble_sort.c.s
+
+.PHONY : sort/bubble_sort.s
+
+# target to generate assembly for a file
+sort/bubble_sort.c.s:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort/bubble_sort.c.s
+.PHONY : sort/bubble_sort.c.s
+
+sort/bucket_sort.o: sort/bucket_sort.c.o
+
+.PHONY : sort/bucket_sort.o
+
+# target to build an object file
+sort/bucket_sort.c.o:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort/bucket_sort.c.o
+.PHONY : sort/bucket_sort.c.o
+
+sort/bucket_sort.i: sort/bucket_sort.c.i
+
+.PHONY : sort/bucket_sort.i
+
+# target to preprocess a source file
+sort/bucket_sort.c.i:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort/bucket_sort.c.i
+.PHONY : sort/bucket_sort.c.i
+
+sort/bucket_sort.s: sort/bucket_sort.c.s
+
+.PHONY : sort/bucket_sort.s
+
+# target to generate assembly for a file
+sort/bucket_sort.c.s:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort/bucket_sort.c.s
+.PHONY : sort/bucket_sort.c.s
+
+sort/counting_sort.o: sort/counting_sort.c.o
+
+.PHONY : sort/counting_sort.o
+
+# target to build an object file
+sort/counting_sort.c.o:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort/counting_sort.c.o
+.PHONY : sort/counting_sort.c.o
+
+sort/counting_sort.i: sort/counting_sort.c.i
+
+.PHONY : sort/counting_sort.i
+
+# target to preprocess a source file
+sort/counting_sort.c.i:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort/counting_sort.c.i
+.PHONY : sort/counting_sort.c.i
+
+sort/counting_sort.s: sort/counting_sort.c.s
+
+.PHONY : sort/counting_sort.s
+
+# target to generate assembly for a file
+sort/counting_sort.c.s:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort/counting_sort.c.s
+.PHONY : sort/counting_sort.c.s
+
+sort/heap_sort.o: sort/heap_sort.c.o
+
+.PHONY : sort/heap_sort.o
+
+# target to build an object file
+sort/heap_sort.c.o:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort/heap_sort.c.o
+.PHONY : sort/heap_sort.c.o
+
+sort/heap_sort.i: sort/heap_sort.c.i
+
+.PHONY : sort/heap_sort.i
+
+# target to preprocess a source file
+sort/heap_sort.c.i:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort/heap_sort.c.i
+.PHONY : sort/heap_sort.c.i
+
+sort/heap_sort.s: sort/heap_sort.c.s
+
+.PHONY : sort/heap_sort.s
+
+# target to generate assembly for a file
+sort/heap_sort.c.s:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort/heap_sort.c.s
+.PHONY : sort/heap_sort.c.s
+
+sort/insertion_sort.o: sort/insertion_sort.c.o
+
+.PHONY : sort/insertion_sort.o
+
+# target to build an object file
+sort/insertion_sort.c.o:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort/insertion_sort.c.o
+.PHONY : sort/insertion_sort.c.o
+
+sort/insertion_sort.i: sort/insertion_sort.c.i
+
+.PHONY : sort/insertion_sort.i
+
+# target to preprocess a source file
+sort/insertion_sort.c.i:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort/insertion_sort.c.i
+.PHONY : sort/insertion_sort.c.i
+
+sort/insertion_sort.s: sort/insertion_sort.c.s
+
+.PHONY : sort/insertion_sort.s
+
+# target to generate assembly for a file
+sort/insertion_sort.c.s:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort/insertion_sort.c.s
+.PHONY : sort/insertion_sort.c.s
+
+sort/merge_sort.o: sort/merge_sort.c.o
+
+.PHONY : sort/merge_sort.o
+
+# target to build an object file
+sort/merge_sort.c.o:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort/merge_sort.c.o
+.PHONY : sort/merge_sort.c.o
+
+sort/merge_sort.i: sort/merge_sort.c.i
+
+.PHONY : sort/merge_sort.i
+
+# target to preprocess a source file
+sort/merge_sort.c.i:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort/merge_sort.c.i
+.PHONY : sort/merge_sort.c.i
+
+sort/merge_sort.s: sort/merge_sort.c.s
+
+.PHONY : sort/merge_sort.s
+
+# target to generate assembly for a file
+sort/merge_sort.c.s:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort/merge_sort.c.s
+.PHONY : sort/merge_sort.c.s
+
+sort/quick_sort.o: sort/quick_sort.c.o
+
+.PHONY : sort/quick_sort.o
+
+# target to build an object file
+sort/quick_sort.c.o:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort/quick_sort.c.o
+.PHONY : sort/quick_sort.c.o
+
+sort/quick_sort.i: sort/quick_sort.c.i
+
+.PHONY : sort/quick_sort.i
+
+# target to preprocess a source file
+sort/quick_sort.c.i:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort/quick_sort.c.i
+.PHONY : sort/quick_sort.c.i
+
+sort/quick_sort.s: sort/quick_sort.c.s
+
+.PHONY : sort/quick_sort.s
+
+# target to generate assembly for a file
+sort/quick_sort.c.s:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort/quick_sort.c.s
+.PHONY : sort/quick_sort.c.s
+
+sort/selection_sort.o: sort/selection_sort.c.o
+
+.PHONY : sort/selection_sort.o
+
+# target to build an object file
+sort/selection_sort.c.o:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort/selection_sort.c.o
+.PHONY : sort/selection_sort.c.o
+
+sort/selection_sort.i: sort/selection_sort.c.i
+
+.PHONY : sort/selection_sort.i
+
+# target to preprocess a source file
+sort/selection_sort.c.i:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort/selection_sort.c.i
+.PHONY : sort/selection_sort.c.i
+
+sort/selection_sort.s: sort/selection_sort.c.s
+
+.PHONY : sort/selection_sort.s
+
+# target to generate assembly for a file
+sort/selection_sort.c.s:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort/selection_sort.c.s
+.PHONY : sort/selection_sort.c.s
+
+sort/shell_sort.o: sort/shell_sort.c.o
+
+.PHONY : sort/shell_sort.o
+
+# target to build an object file
+sort/shell_sort.c.o:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort/shell_sort.c.o
+.PHONY : sort/shell_sort.c.o
+
+sort/shell_sort.i: sort/shell_sort.c.i
+
+.PHONY : sort/shell_sort.i
+
+# target to preprocess a source file
+sort/shell_sort.c.i:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort/shell_sort.c.i
+.PHONY : sort/shell_sort.c.i
+
+sort/shell_sort.s: sort/shell_sort.c.s
+
+.PHONY : sort/shell_sort.s
+
+# target to generate assembly for a file
+sort/shell_sort.c.s:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/sort/shell_sort.c.s
+.PHONY : sort/shell_sort.c.s
+
 test.o: test.c.o
 
 .PHONY : test.o
@@ -150,6 +393,87 @@ test.c.s:
 	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/test.c.s
 .PHONY : test.c.s
 
+util/heap.o: util/heap.c.o
+
+.PHONY : util/heap.o
+
+# target to build an object file
+util/heap.c.o:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/heap.c.o
+.PHONY : util/heap.c.o
+
+util/heap.i: util/heap.c.i
+
+.PHONY : util/heap.i
+
+# target to preprocess a source file
+util/heap.c.i:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/heap.c.i
+.PHONY : util/heap.c.i
+
+util/heap.s: util/heap.c.s
+
+.PHONY : util/heap.s
+
+# target to generate assembly for a file
+util/heap.c.s:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/heap.c.s
+.PHONY : util/heap.c.s
+
+util/linked_list.o: util/linked_list.c.o
+
+.PHONY : util/linked_list.o
+
+# target to build an object file
+util/linked_list.c.o:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/linked_list.c.o
+.PHONY : util/linked_list.c.o
+
+util/linked_list.i: util/linked_list.c.i
+
+.PHONY : util/linked_list.i
+
+# target to preprocess a source file
+util/linked_list.c.i:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/linked_list.c.i
+.PHONY : util/linked_list.c.i
+
+util/linked_list.s: util/linked_list.c.s
+
+.PHONY : util/linked_list.s
+
+# target to generate assembly for a file
+util/linked_list.c.s:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/linked_list.c.s
+.PHONY : util/linked_list.c.s
+
+util/random_data.o: util/random_data.c.o
+
+.PHONY : util/random_data.o
+
+# target to build an object file
+util/random_data.c.o:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/random_data.c.o
+.PHONY : util/random_data.c.o
+
+util/random_data.i: util/random_data.c.i
+
+.PHONY : util/random_data.i
+
+# target to preprocess a source file
+util/random_data.c.i:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/random_data.c.i
+.PHONY : util/random_data.c.i
+
+util/random_data.s: util/random_data.c.s
+
+.PHONY : util/random_data.s
+
+# target to generate assembly for a file
+util/random_data.c.s:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/random_data.c.s
+.PHONY : util/random_data.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -159,9 +483,45 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... demo2"
+	@echo "... sort/bubble_sort.o"
+	@echo "... sort/bubble_sort.i"
+	@echo "... sort/bubble_sort.s"
+	@echo "... sort/bucket_sort.o"
+	@echo "... sort/bucket_sort.i"
+	@echo "... sort/bucket_sort.s"
+	@echo "... sort/counting_sort.o"
+	@echo "... sort/counting_sort.i"
+	@echo "... sort/counting_sort.s"
+	@echo "... sort/heap_sort.o"
+	@echo "... sort/heap_sort.i"
+	@echo "... sort/heap_sort.s"
+	@echo "... sort/insertion_sort.o"
+	@echo "... sort/insertion_sort.i"
+	@echo "... sort/insertion_sort.s"
+	@echo "... sort/merge_sort.o"
+	@echo "... sort/merge_sort.i"
+	@echo "... sort/merge_sort.s"
+	@echo "... sort/quick_sort.o"
+	@echo "... sort/quick_sort.i"
+	@echo "... sort/quick_sort.s"
+	@echo "... sort/selection_sort.o"
+	@echo "... sort/selection_sort.i"
+	@echo "... sort/selection_sort.s"
+	@echo "... sort/shell_sort.o"
+	@echo "... sort/shell_sort.i"
+	@echo "... sort/shell_sort.s"
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
+	@echo "... util/heap.o"
+	@echo "... util/heap.i"
+	@echo "... util/heap.s"
+	@echo "... util/linked_list.o"
+	@echo "... util/linked_list.i"
+	@echo "... util/linked_list.s"
+	@echo "... util/random_data.o"
+	@echo "... util/random_data.i"
+	@echo "... util/random_data.s"
 .PHONY : help
 
 

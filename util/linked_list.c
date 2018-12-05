@@ -1,10 +1,6 @@
 #include "stdio.h"
 #include "stdlib.h"
-typedef struct Node Node;
-struct Node{
-    int item;
-    Node *next;
-};
+#include "../header/linked_list.h"
 /**
  * 降序
  * @param a a元素
