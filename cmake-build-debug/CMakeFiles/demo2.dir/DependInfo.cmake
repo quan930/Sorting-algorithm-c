@@ -14,8 +14,10 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/daquan/CLionProjects/Sorting-algorithm-c/sort/selection_sort.c" "/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/CMakeFiles/demo2.dir/sort/selection_sort.c.o"
   "/Users/daquan/CLionProjects/Sorting-algorithm-c/sort/shell_sort.c" "/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/CMakeFiles/demo2.dir/sort/shell_sort.c.o"
   "/Users/daquan/CLionProjects/Sorting-algorithm-c/test.c" "/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/CMakeFiles/demo2.dir/test.c.o"
+  "/Users/daquan/CLionProjects/Sorting-algorithm-c/util/binaryTree.c" "/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/CMakeFiles/demo2.dir/util/binaryTree.c.o"
   "/Users/daquan/CLionProjects/Sorting-algorithm-c/util/heap.c" "/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/CMakeFiles/demo2.dir/util/heap.c.o"
   "/Users/daquan/CLionProjects/Sorting-algorithm-c/util/linked_list.c" "/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/CMakeFiles/demo2.dir/util/linked_list.c.o"
+  "/Users/daquan/CLionProjects/Sorting-algorithm-c/util/queue.c" "/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/CMakeFiles/demo2.dir/util/queue.c.o"
   "/Users/daquan/CLionProjects/Sorting-algorithm-c/util/random_data.c" "/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/CMakeFiles/demo2.dir/util/random_data.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")

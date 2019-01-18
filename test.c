@@ -1,10 +1,21 @@
 #include "stdio.h"
 #include "header/random_data.h"
 #include "header/sort.h"
+#include "header/binaryTree.h"
+#include "header/queue.h"
+
 #define LENGTH 100000
 /**
  * 2018-11-9
  */
+ void binaryTree(){
+    TreeNode *treeNode=NULL;
+    for (int i = 1; i <= 10; ++i) {
+        treeNode = insertBinaryTree(treeNode,i);
+    }
+    inOrder(treeNode);
+    levelOrder(treeNode);
+ }
 int main(){
     int array[LENGTH];
     int range=10000;

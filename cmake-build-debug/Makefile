@@ -393,6 +393,33 @@ test.c.s:
 	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/test.c.s
 .PHONY : test.c.s
 
+util/binaryTree.o: util/binaryTree.c.o
+
+.PHONY : util/binaryTree.o
+
+# target to build an object file
+util/binaryTree.c.o:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/binaryTree.c.o
+.PHONY : util/binaryTree.c.o
+
+util/binaryTree.i: util/binaryTree.c.i
+
+.PHONY : util/binaryTree.i
+
+# target to preprocess a source file
+util/binaryTree.c.i:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/binaryTree.c.i
+.PHONY : util/binaryTree.c.i
+
+util/binaryTree.s: util/binaryTree.c.s
+
+.PHONY : util/binaryTree.s
+
+# target to generate assembly for a file
+util/binaryTree.c.s:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/binaryTree.c.s
+.PHONY : util/binaryTree.c.s
+
 util/heap.o: util/heap.c.o
 
 .PHONY : util/heap.o
@@ -446,6 +473,33 @@ util/linked_list.s: util/linked_list.c.s
 util/linked_list.c.s:
 	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/linked_list.c.s
 .PHONY : util/linked_list.c.s
+
+util/queue.o: util/queue.c.o
+
+.PHONY : util/queue.o
+
+# target to build an object file
+util/queue.c.o:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/queue.c.o
+.PHONY : util/queue.c.o
+
+util/queue.i: util/queue.c.i
+
+.PHONY : util/queue.i
+
+# target to preprocess a source file
+util/queue.c.i:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/queue.c.i
+.PHONY : util/queue.c.i
+
+util/queue.s: util/queue.c.s
+
+.PHONY : util/queue.s
+
+# target to generate assembly for a file
+util/queue.c.s:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/queue.c.s
+.PHONY : util/queue.c.s
 
 util/random_data.o: util/random_data.c.o
 
@@ -513,12 +567,18 @@ help:
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
+	@echo "... util/binaryTree.o"
+	@echo "... util/binaryTree.i"
+	@echo "... util/binaryTree.s"
 	@echo "... util/heap.o"
 	@echo "... util/heap.i"
 	@echo "... util/heap.s"
 	@echo "... util/linked_list.o"
 	@echo "... util/linked_list.i"
 	@echo "... util/linked_list.s"
+	@echo "... util/queue.o"
+	@echo "... util/queue.i"
+	@echo "... util/queue.s"
 	@echo "... util/random_data.o"
 	@echo "... util/random_data.i"
 	@echo "... util/random_data.s"

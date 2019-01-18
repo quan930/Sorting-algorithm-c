@@ -22,13 +22,23 @@ CMakeFiles/demo2.dir/sort/selection_sort.c.o
 CMakeFiles/demo2.dir/sort/shell_sort.c.o
  /Users/daquan/CLionProjects/Sorting-algorithm-c/sort/shell_sort.c
 CMakeFiles/demo2.dir/test.c.o
+ /Users/daquan/CLionProjects/Sorting-algorithm-c/header/binaryTree.h
+ /Users/daquan/CLionProjects/Sorting-algorithm-c/header/queue.h
  /Users/daquan/CLionProjects/Sorting-algorithm-c/header/random_data.h
  /Users/daquan/CLionProjects/Sorting-algorithm-c/header/sort.h
  /Users/daquan/CLionProjects/Sorting-algorithm-c/test.c
+CMakeFiles/demo2.dir/util/binaryTree.c.o
+ /Users/daquan/CLionProjects/Sorting-algorithm-c/header/binaryTree.h
+ /Users/daquan/CLionProjects/Sorting-algorithm-c/header/queue.h
+ /Users/daquan/CLionProjects/Sorting-algorithm-c/util/binaryTree.c
 CMakeFiles/demo2.dir/util/heap.c.o
  /Users/daquan/CLionProjects/Sorting-algorithm-c/util/heap.c
 CMakeFiles/demo2.dir/util/linked_list.c.o
  /Users/daquan/CLionProjects/Sorting-algorithm-c/header/linked_list.h
  /Users/daquan/CLionProjects/Sorting-algorithm-c/util/linked_list.c
+CMakeFiles/demo2.dir/util/queue.c.o
+ /Users/daquan/CLionProjects/Sorting-algorithm-c/header/binaryTree.h
+ /Users/daquan/CLionProjects/Sorting-algorithm-c/header/queue.h
+ /Users/daquan/CLionProjects/Sorting-algorithm-c/util/queue.c
 CMakeFiles/demo2.dir/util/random_data.c.o
  /Users/daquan/CLionProjects/Sorting-algorithm-c/util/random_data.c

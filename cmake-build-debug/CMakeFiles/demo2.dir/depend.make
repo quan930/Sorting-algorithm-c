@@ -21,14 +21,24 @@ CMakeFiles/demo2.dir/sort/selection_sort.c.o: ../sort/selection_sort.c
 
 CMakeFiles/demo2.dir/sort/shell_sort.c.o: ../sort/shell_sort.c
 
+CMakeFiles/demo2.dir/test.c.o: ../header/binaryTree.h
+CMakeFiles/demo2.dir/test.c.o: ../header/queue.h
 CMakeFiles/demo2.dir/test.c.o: ../header/random_data.h
 CMakeFiles/demo2.dir/test.c.o: ../header/sort.h
 CMakeFiles/demo2.dir/test.c.o: ../test.c
+
+CMakeFiles/demo2.dir/util/binaryTree.c.o: ../header/binaryTree.h
+CMakeFiles/demo2.dir/util/binaryTree.c.o: ../header/queue.h
+CMakeFiles/demo2.dir/util/binaryTree.c.o: ../util/binaryTree.c
 
 CMakeFiles/demo2.dir/util/heap.c.o: ../util/heap.c
 
 CMakeFiles/demo2.dir/util/linked_list.c.o: ../header/linked_list.h
 CMakeFiles/demo2.dir/util/linked_list.c.o: ../util/linked_list.c
+
+CMakeFiles/demo2.dir/util/queue.c.o: ../header/binaryTree.h
+CMakeFiles/demo2.dir/util/queue.c.o: ../header/queue.h
+CMakeFiles/demo2.dir/util/queue.c.o: ../util/queue.c
 
 CMakeFiles/demo2.dir/util/random_data.c.o: ../util/random_data.c
 

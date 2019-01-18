@@ -78,10 +78,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/header/binaryTree.h">
+			<Option target="demo2"/>
+		</Unit>
 		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/header/heap.h">
 			<Option target="demo2"/>
 		</Unit>
 		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/header/linked_list.h">
+			<Option target="demo2"/>
+		</Unit>
+		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/header/queue.h">
 			<Option target="demo2"/>
 		</Unit>
 		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/header/random_data.h">
@@ -120,10 +126,16 @@
 		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/test.c">
 			<Option target="demo2"/>
 		</Unit>
+		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/util/binaryTree.c">
+			<Option target="demo2"/>
+		</Unit>
 		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/util/heap.c">
 			<Option target="demo2"/>
 		</Unit>
 		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/util/linked_list.c">
+			<Option target="demo2"/>
+		</Unit>
+		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/util/queue.c">
 			<Option target="demo2"/>
 		</Unit>
 		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/util/random_data.c">

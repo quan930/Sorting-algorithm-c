@@ -12,6 +12,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/demo2.dir/sort/quick_sort.c.o"
   "CMakeFiles/demo2.dir/sort/selection_sort.c.o"
   "CMakeFiles/demo2.dir/sort/shell_sort.c.o"
+  "CMakeFiles/demo2.dir/util/binaryTree.c.o"
+  "CMakeFiles/demo2.dir/util/queue.c.o"
   "demo2.pdb"
   "demo2"
 )
