@@ -32,7 +32,7 @@ void inOrder(TreeNode *treeNode){
     if (treeNode->left!=NULL){
         inOrder(treeNode->left);
     }
-    printf("%d\n",treeNode->value);
+    printf("%d\t",treeNode->value);
     if (treeNode->right!=NULL){
         inOrder(treeNode->right);
     }
