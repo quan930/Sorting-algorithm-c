@@ -15,5 +15,5 @@
 + [测试--test](https://github.com/quan930/Sorting-algorithm-c/blob/master/test.c)
 # common-algorithm-c
 常见算法
-+ [层序遍历二叉树--level order traverse](https://github.com/quan930/Sorting-algorithm-c/blob/master/commonAlgorithms/commonAlgorithms/convenientBinaryTree.c)
-+ [大数阶乘--factorial large number](https://github.com/quan930/Sorting-algorithm-c/blob/master/commonAlgorithms/commonAlgorithms/commonAlgorithms/factorial.c)
++ [层序遍历二叉树--level order traverse](https://github.com/quan930/algorithm-c/blob/master/commonAlgorithms/convenientBinaryTree.c)
++ [大数阶乘--factorial large number](https://github.com/quan930/algorithm-c/blob/master/commonAlgorithms/factorial.c)

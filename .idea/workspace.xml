@@ -13,14 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4c68c55c-88ad-4871-a99b-b393b674a535" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo2.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo2.dir/C.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo2.dir/test.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo2.dir/test.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo2.dir/util/binaryTree.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo2.dir/util/binaryTree.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/demo2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/demo2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.c" beforeDir="false" afterPath="$PROJECT_DIR$/test.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/binaryTree.c" beforeDir="false" afterPath="$PROJECT_DIR$/util/binaryTree.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,7 +92,7 @@
         <counts>
           <entry key="c" value="92" />
           <entry key="cpp" value="1" />
-          <entry key="h" value="21" />
+          <entry key="h" value="22" />
           <entry key="md" value="9" />
           <entry key="txt" value="7" />
         </counts>
@@ -108,7 +101,7 @@
         <counts>
           <entry key="CMakeLists.txt" value="7" />
           <entry key="Markdown" value="7" />
-          <entry key="ObjectiveC" value="114" />
+          <entry key="ObjectiveC" value="115" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -116,7 +109,7 @@
         <counts>
           <entry key="c" value="12210" />
           <entry key="h" value="285" />
-          <entry key="md" value="155" />
+          <entry key="md" value="173" />
           <entry key="txt" value="186" />
         </counts>
       </usages-collector>
@@ -124,7 +117,7 @@
         <counts>
           <entry key="CMakeLists.txt" value="186" />
           <entry key="Doxygen file" value="46" />
-          <entry key="Markdown" value="139" />
+          <entry key="Markdown" value="157" />
           <entry key="ObjectiveC" value="12449" />
           <entry key="PLAIN_TEXT" value="16" />
         </counts>
@@ -154,12 +147,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="270">
-                <caret line="18" column="130" selection-start-line="18" selection-start-column="130" selection-end-line="18" selection-end-column="130" />
+                <caret line="18" column="112" selection-start-line="18" selection-start-column="112" selection-end-line="18" selection-end-column="112" />
               </first_editor>
               <second_editor />
             </state>
@@ -175,7 +168,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/commonAlgorithms/convenientBinaryTree.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -230,8 +223,8 @@
         <option value="$PROJECT_DIR$/util/binaryTree.c" />
         <option value="$PROJECT_DIR$/test.c" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/commonAlgorithms/convenientBinaryTree.c" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -282,7 +275,7 @@
             <path>
               <item name="demo2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sorting-algorithm-c" type="462c0819:PsiDirectoryNode" />
-              <item name="commonAlgorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -374,12 +367,12 @@
       <workItem from="1547266891265" duration="629000" />
       <workItem from="1547728034284" duration="11984000" />
       <workItem from="1552206697282" duration="60000" />
-      <workItem from="1552537149791" duration="2663000" />
+      <workItem from="1552537149791" duration="3206000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="163575000" />
+    <option name="totallyTimeSpent" value="164118000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -394,8 +387,8 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7109515" visible="true" weight="0.22389127" />
-      <window_info id="Structure" order="1" sideWeight="0.28904846" side_tool="true" visible="true" weight="0.22389127" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7078652" visible="true" weight="0.22389127" />
+      <window_info id="Structure" order="1" sideWeight="0.29213482" side_tool="true" weight="0.22389127" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -406,10 +399,10 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.3493976" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3566265" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3566265" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="12" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="CMake" order="12" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -639,21 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
-            <caret line="18" column="130" selection-start-line="18" selection-start-column="130" selection-end-line="18" selection-end-column="130" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="85" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/commonAlgorithms/factorial.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -668,6 +646,24 @@
           <folding>
             <element signature="e#52#70#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="270">
+            <caret line="18" column="112" selection-start-line="18" selection-start-column="112" selection-end-line="18" selection-end-column="112" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="85" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
         </state>
       </provider>
     </entry>
