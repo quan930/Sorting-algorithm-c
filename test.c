@@ -1,12 +1,15 @@
 #include "stdio.h"
 #include "header/random_data.h"
 #include "header/sort.h"
+#include "header/search.h"
+#include <limits.h>
 
-#define LENGTH 100000
+//#define LENGTH 100000
+#define LENGTH 1000000
 /**
  * 2018-11-9
  */
-int main(){
+int main1(){
     int array[LENGTH];
     int range=10000;
     printf("length:%d\trange:0~%d\n",LENGTH,range);
@@ -22,4 +25,16 @@ int main(){
     printf("计数排序:\t%f秒\n",counting_sort(random_data(array,LENGTH,range),LENGTH,range));
     printf("桶排序:\t%f秒\n",bucket_sort(random_data(array,LENGTH,range),LENGTH,range));
     return 0;
+}
+int main(){
+    int array[LENGTH];
+    int range=10000000;
+    double time;
+    printf("length:%d\trange:0~%d\n",LENGTH,range);
+    int *testarr = random_data(array,LENGTH,range);
+    //二叉搜索树
+    TreeNode *treeNode = NULL;
+    treeNode = binarytree_search_assemble(testarr,LENGTH,treeNode,&time);
+    printf("二叉树装配时间:\t%f秒\n",time);
+    printf("二叉树查询时间:\t%f秒\n",binarytree_search(testarr,LENGTH,treeNode));
 }

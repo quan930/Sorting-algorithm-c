@@ -8,140 +8,146 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug"/>
+				<Option working_dir="/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug"/>
+				<Option working_dir="/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug"/>
+				<Option working_dir="/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="demo2">
-				<Option output="/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/demo2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug"/>
+				<Option output="/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/demo2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo2"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo2"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="demo2/fast">
-				<Option output="/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/demo2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug"/>
+				<Option output="/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/demo2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
 					<Add directory="/System/Library/Frameworks"/>
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo2/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/Sorting-algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 demo2/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/header/binaryTree.h">
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/header/binaryTree.h">
 			<Option target="demo2"/>
 		</Unit>
-		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/header/heap.h">
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/header/heap.h">
 			<Option target="demo2"/>
 		</Unit>
-		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/header/linked_list.h">
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/header/linked_list.h">
 			<Option target="demo2"/>
 		</Unit>
-		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/header/queue.h">
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/header/queue.h">
 			<Option target="demo2"/>
 		</Unit>
-		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/header/random_data.h">
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/header/random_data.h">
 			<Option target="demo2"/>
 		</Unit>
-		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/header/sort.h">
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/header/search.h">
 			<Option target="demo2"/>
 		</Unit>
-		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/sort/bubble_sort.c">
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/header/sort.h">
 			<Option target="demo2"/>
 		</Unit>
-		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/sort/bucket_sort.c">
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/search/binarytree_search.c">
 			<Option target="demo2"/>
 		</Unit>
-		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/sort/counting_sort.c">
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/sort/bubble_sort.c">
 			<Option target="demo2"/>
 		</Unit>
-		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/sort/heap_sort.c">
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/sort/bucket_sort.c">
 			<Option target="demo2"/>
 		</Unit>
-		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/sort/insertion_sort.c">
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/sort/counting_sort.c">
 			<Option target="demo2"/>
 		</Unit>
-		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/sort/merge_sort.c">
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/sort/heap_sort.c">
 			<Option target="demo2"/>
 		</Unit>
-		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/sort/quick_sort.c">
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/sort/insertion_sort.c">
 			<Option target="demo2"/>
 		</Unit>
-		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/sort/selection_sort.c">
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/sort/merge_sort.c">
 			<Option target="demo2"/>
 		</Unit>
-		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/sort/shell_sort.c">
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/sort/quick_sort.c">
 			<Option target="demo2"/>
 		</Unit>
-		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/test.c">
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/sort/selection_sort.c">
 			<Option target="demo2"/>
 		</Unit>
-		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/util/binaryTree.c">
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/sort/shell_sort.c">
 			<Option target="demo2"/>
 		</Unit>
-		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/util/heap.c">
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/test.c">
 			<Option target="demo2"/>
 		</Unit>
-		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/util/linked_list.c">
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/util/binaryTree.c">
 			<Option target="demo2"/>
 		</Unit>
-		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/util/queue.c">
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/util/heap.c">
 			<Option target="demo2"/>
 		</Unit>
-		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/util/random_data.c">
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/util/linked_list.c">
 			<Option target="demo2"/>
 		</Unit>
-		<Unit filename="/Users/daquan/CLionProjects/Sorting-algorithm-c/CMakeLists.txt">
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/util/queue.c">
+			<Option target="demo2"/>
+		</Unit>
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/util/random_data.c">
+			<Option target="demo2"/>
+		</Unit>
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
