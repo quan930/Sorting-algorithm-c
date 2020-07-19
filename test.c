@@ -9,7 +9,7 @@
 /**
  * 2018-11-9
  */
-int main1(){
+int sort(){
     int array[LENGTH];
     int range=10000;
     printf("length:%d\trange:0~%d\n",LENGTH,range);

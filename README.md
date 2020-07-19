@@ -11,7 +11,13 @@
 #### 非比较排序
 + [计数排序--counting sort](https://github.com/quan930/Sorting-algorithm-c/blob/master/sort/counting_sort.c)
 + [桶排序--bucket sort](https://github.com/quan930/Sorting-algorithm-c/blob/master/sort/bucket_sort.c)
-#### 测试
+
+#Search-c
+搜索算法-c
++ [二叉搜索树-Binary Search Tree](https://github.com/quan930/algorithm-c/blob/master/search/binarytree_search.c)
+
+# Test
+测试
 + [测试--test](https://github.com/quan930/Sorting-algorithm-c/blob/master/test.c)
 # common-algorithm-c
 常见算法
