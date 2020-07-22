@@ -494,7 +494,7 @@ void print23tree(two_three_tree * twoThreeTree){
     //应该释放 但是有缺陷待解决
 //    free23tree_1(twoThreeTree);
 //    free(prindex);
-    printf("释放完成\n");
+//    printf("释放完成\n");
 }
 
 /**
@@ -516,6 +516,12 @@ void free23tree(two_three_tree *twoThreeTree){
     }
 }
 
+/**
+ * 查询2-3树
+ * @param twoThreeTree 2-3根节点
+ * @param vaule 需要查询的值
+ * @param bool 失败-1 成功为查询值
+ */
 void two_three_tree_find(two_three_tree *twoThreeTree,int vaule,int *bool){
     if (twoThreeTree==NULL){
         *bool=-1;

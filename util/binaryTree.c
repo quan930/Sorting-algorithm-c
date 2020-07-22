@@ -32,7 +32,7 @@ TreeNode* binarytree_insert(TreeNode *treeNode,int vaule){
  * 查询指定值
  * @param treeNode
  * @param vaule
- * @param bool
+ * @param bool 失败-1
  */
 void binarytree_find(TreeNode *treeNode,int vaule,int *bool){
     if (treeNode==NULL){
