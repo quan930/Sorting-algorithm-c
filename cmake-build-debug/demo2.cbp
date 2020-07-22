@@ -78,6 +78,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/header/2-3tree.h">
+			<Option target="demo2"/>
+		</Unit>
 		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/header/binaryTree.h">
 			<Option target="demo2"/>
 		</Unit>
@@ -97,6 +100,9 @@
 			<Option target="demo2"/>
 		</Unit>
 		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/header/sort.h">
+			<Option target="demo2"/>
+		</Unit>
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/search/2_3tree_search.c">
 			<Option target="demo2"/>
 		</Unit>
 		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/search/binarytree_search.c">
@@ -130,6 +136,9 @@
 			<Option target="demo2"/>
 		</Unit>
 		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/test.c">
+			<Option target="demo2"/>
+		</Unit>
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/util/2-3tree.c">
 			<Option target="demo2"/>
 		</Unit>
 		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/util/binaryTree.c">

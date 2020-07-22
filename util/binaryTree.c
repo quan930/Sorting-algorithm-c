@@ -94,17 +94,17 @@ void inOrder(TreeNode *treeNode){
 void levelOrder(TreeNode *treeNode){
     Queue *queue = NULL;//队列
     Value value;//值 储存树节点
-    value.TreeNode = treeNode;
+    value.node = treeNode;
     queue = enqueue(queue,value);
     while (isEmpty(queue)){
-        TreeNode *node = queue->first->value.TreeNode;
+        TreeNode *node = queue->first->value.node;
         printf("%d\t",node->value);
         if (node->left!=NULL){
-            value.TreeNode = node->left;
+            value.node = node->left;
             queue = enqueue(queue,value);
         }
         if (node->right!=NULL){
-            value.TreeNode = node->right;
+            value.node = node->right;
             queue = enqueue(queue,value);
         }
         queue = dequeue(queue);
@@ -122,11 +122,11 @@ void printtree_complete(TreeNode *treeNode){
     int depth = get_tree_depth(treeNode);//树深度
     Queue *queue = NULL;//队列
     Value value;//值 储存树节点
-    value.TreeNode = treeNode;
+    value.node = treeNode;
     queue = enqueue(queue,value);
     TreeNode *node;
     TreeNode treeNodeTemp;
-    treeNodeTemp.value=-1;
+//    treeNodeTemp.value=-1;
     int *prindex = calloc(1<<(depth-1),sizeof(TreeNode));//记录竖线位置
     int ter1=0;
     int ter2=0;
@@ -134,7 +134,7 @@ void printtree_complete(TreeNode *treeNode){
         ter1=0;
         ter1+=ter2;
         ter2=0;
-        node = queue->first->value.TreeNode;
+        node = queue->first->value.node;
         for (int i = 1; i < 1<<(depth-indexlevel); ++i) {
             printf("   ");
             ter1+=3;
@@ -159,26 +159,26 @@ void printtree_complete(TreeNode *treeNode){
         prindex[(1<<(indexlevel))-count*2+1]=ter1;
         count--;
         if (node->value==-1){
-            value.TreeNode = &treeNodeTemp;
+            value.node = &treeNodeTemp;
             queue = enqueue(queue,value);
-            value.TreeNode = &treeNodeTemp;
+            value.node = &treeNodeTemp;
             queue = enqueue(queue,value);
             temp++;
             temp++;
         } else{
             if (node->left!=NULL){
-                value.TreeNode = node->left;
+                value.node = node->left;
                 queue = enqueue(queue,value);
             } else{
-                value.TreeNode = &treeNodeTemp;
+                value.node = &treeNodeTemp;
                 queue = enqueue(queue,value);
             }
             temp++;
             if (node->right!=NULL){
-                value.TreeNode = node->right;
+                value.node = node->right;
                 queue = enqueue(queue,value);
             } else{
-                value.TreeNode = &treeNodeTemp;
+                value.node = &treeNodeTemp;
                 queue = enqueue(queue,value);
             }
             temp++;
@@ -214,7 +214,7 @@ void printtree(TreeNode *treeNode){
     int depth = get_tree_depth(treeNode);//树深度
     Queue *queue = NULL;//队列
     Value value;//值 储存树节点
-    value.TreeNode = treeNode;
+    value.node = treeNode;
     queue = enqueue(queue,value);
     TreeNode *node;
     TreeNode treeNodeTemp={.value=-1};
@@ -226,7 +226,7 @@ void printtree(TreeNode *treeNode){
         ter1=0;
         ter1+=ter2;
         ter2=0;
-        node = queue->first->value.TreeNode;
+        node = queue->first->value.node;
         for (int i = 1; i < 1<<(depth-indexlevel); ++i) {
             printf("   ");
             ter1+=3;
@@ -252,22 +252,22 @@ void printtree(TreeNode *treeNode){
         prbool[(1<<(indexlevel))-count*2+1]=node->value!=-1?1:0;
         count--;
         if (node->value==-1){//空节点
-            value.TreeNode = &treeNodeTemp;
+            value.node = &treeNodeTemp;
             queue = enqueue(queue,value);
-            value.TreeNode = &treeNodeTemp;
+            value.node = &treeNodeTemp;
             queue = enqueue(queue,value);
             temp+=2;
         } else{
             if (node->left!=NULL){//左节点
-                value.TreeNode = node->left;
+                value.node = node->left;
             } else{
-                value.TreeNode = &treeNodeTemp;
+                value.node = &treeNodeTemp;
             }
             queue = enqueue(queue,value);
             if (node->right!=NULL){//右节点
-                value.TreeNode = node->right;
+                value.node = node->right;
             } else{
-                value.TreeNode = &treeNodeTemp;
+                value.node = &treeNodeTemp;
             }
             queue = enqueue(queue,value);
             temp+=2;

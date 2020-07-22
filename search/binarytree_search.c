@@ -67,14 +67,14 @@ TreeNode* _binarytree_search_assemble(int *testarr, int testlen ,TreeNode *treeN
     return treeNode;
 }
 
- /**
-  * 二叉查找树 装配
-  * @param testarr 测试数组
-  * @param testlen 测试数组长度
-  * @param treeNode 二叉树根结点
-  * @param time 二叉查找树装配时间(秒)
-  * @return 二叉树根结点
-  */
+/**
+ * 二叉查找树 装配
+ * @param testarr 测试数组
+ * @param testlen 测试数组长度
+ * @param treeNode 二叉树根结点
+ * @param time 二叉查找树装配时间(秒)
+ * @return 二叉树根结点
+ */
 TreeNode * binarytree_search_assemble(int *testarr, int testlen , TreeNode *treeNode, double *time){
     clock_t start,finish;
     start = clock();

@@ -2,10 +2,16 @@
 #include "header/random_data.h"
 #include "header/sort.h"
 #include "header/search.h"
-#include <limits.h>
+#include "header/2-3tree.h"
+//#include <limits.h>
 
 //#define LENGTH 100000
-#define LENGTH 1000000
+#define LENGTH 20
+/**
+ * 80 ok
+ *  bug
+ */
+
 /**
  * 2018-11-9
  */
@@ -26,15 +32,25 @@ int sort(){
     printf("桶排序:\t%f秒\n",bucket_sort(random_data(array,LENGTH,range),LENGTH,range));
     return 0;
 }
+
 int main(){
     int array[LENGTH];
-    int range=10000000;
+    int range=2000;
     double time;
     printf("length:%d\trange:0~%d\n",LENGTH,range);
     int *testarr = random_data(array,LENGTH,range);
+    //排序 极端情况
+//    merge_sort(random_data(array,LENGTH,range),LENGTH);
+
     //二叉搜索树
     TreeNode *treeNode = NULL;
     treeNode = binarytree_search_assemble(testarr,LENGTH,treeNode,&time);
     printf("二叉树装配时间:\t%f秒\n",time);
     printf("二叉树查询时间:\t%f秒\n",binarytree_search(testarr,LENGTH,treeNode));
+
+    //2-3树
+    two_three_tree *twoThreeTree=NULL;
+    twoThreeTree = twothreetree_search_assemble(testarr,LENGTH,twoThreeTree,&time);
+    printf("2-3树装配时间:\t%f秒\n",time);
+    printf("2-3树查询时间:\t%f秒\n",twothreetree_search(testarr,LENGTH,twoThreeTree));
 }

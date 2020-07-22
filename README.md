@@ -12,9 +12,10 @@
 + [计数排序--counting sort](https://github.com/quan930/Sorting-algorithm-c/blob/master/sort/counting_sort.c)
 + [桶排序--bucket sort](https://github.com/quan930/Sorting-algorithm-c/blob/master/sort/bucket_sort.c)
 
-# Search-c
+# Search-algorithm-c
 搜索算法-c
 + [二叉搜索树-Binary Search Tree](https://github.com/quan930/algorithm-c/blob/master/search/binarytree_search.c)
++ [2-3树-2-3Tree](https://github.com/quan930/algorithm-c/blob/master/search/2_3tree_search.c)
 
 # Test
 测试

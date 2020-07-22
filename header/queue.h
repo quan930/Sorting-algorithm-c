@@ -7,7 +7,7 @@
 typedef struct Queue Queue;
 typedef struct Value Value;
 struct Value{
-    TreeNode *TreeNode;
+    void *node;
 };
 struct Queue{
     Value value;

@@ -6,10 +6,8 @@
 
 #IncludeRegexTransform: 
 
-/Users/daquan/CLionProjects/algorithm-c/header/binaryTree.h
+/Users/daquan/CLionProjects/algorithm-c/header/2-3tree.h
 
-/Users/daquan/CLionProjects/algorithm-c/header/queue.h
-binaryTree.h
 /Users/daquan/CLionProjects/algorithm-c/header/binaryTree.h
 
 /Users/daquan/CLionProjects/algorithm-c/header/random_data.h
@@ -17,18 +15,10 @@ binaryTree.h
 /Users/daquan/CLionProjects/algorithm-c/header/search.h
 binaryTree.h
 /Users/daquan/CLionProjects/algorithm-c/header/binaryTree.h
+2-3tree.h
+/Users/daquan/CLionProjects/algorithm-c/header/2-3tree.h
 
 /Users/daquan/CLionProjects/algorithm-c/header/sort.h
-
-/Users/daquan/CLionProjects/algorithm-c/search/binarytree_search.c
-stdio.h
-/Users/daquan/CLionProjects/algorithm-c/search/stdio.h
-time.h
-/Users/daquan/CLionProjects/algorithm-c/search/time.h
-stdlib.h
-/Users/daquan/CLionProjects/algorithm-c/search/stdlib.h
-../header/binaryTree.h
-/Users/daquan/CLionProjects/algorithm-c/header/binaryTree.h
 
 /Users/daquan/CLionProjects/algorithm-c/test.c
 stdio.h
@@ -39,24 +29,6 @@ header/sort.h
 /Users/daquan/CLionProjects/algorithm-c/header/sort.h
 header/search.h
 /Users/daquan/CLionProjects/algorithm-c/header/search.h
-limits.h
--
-
-/Users/daquan/CLionProjects/algorithm-c/util/binaryTree.c
-stdio.h
--
-stdlib.h
--
-../header/binaryTree.h
-/Users/daquan/CLionProjects/algorithm-c/header/binaryTree.h
-../header/queue.h
-/Users/daquan/CLionProjects/algorithm-c/header/queue.h
-
-/Users/daquan/CLionProjects/algorithm-c/util/queue.c
-../header/queue.h
-/Users/daquan/CLionProjects/algorithm-c/header/queue.h
-stdio.h
-/Users/daquan/CLionProjects/algorithm-c/util/stdio.h
-stdlib.h
--
+header/2-3tree.h
+/Users/daquan/CLionProjects/algorithm-c/header/2-3tree.h
 

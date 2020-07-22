@@ -123,6 +123,33 @@ demo2/fast:
 	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/build
 .PHONY : demo2/fast
 
+search/2_3tree_search.o: search/2_3tree_search.c.o
+
+.PHONY : search/2_3tree_search.o
+
+# target to build an object file
+search/2_3tree_search.c.o:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/search/2_3tree_search.c.o
+.PHONY : search/2_3tree_search.c.o
+
+search/2_3tree_search.i: search/2_3tree_search.c.i
+
+.PHONY : search/2_3tree_search.i
+
+# target to preprocess a source file
+search/2_3tree_search.c.i:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/search/2_3tree_search.c.i
+.PHONY : search/2_3tree_search.c.i
+
+search/2_3tree_search.s: search/2_3tree_search.c.s
+
+.PHONY : search/2_3tree_search.s
+
+# target to generate assembly for a file
+search/2_3tree_search.c.s:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/search/2_3tree_search.c.s
+.PHONY : search/2_3tree_search.c.s
+
 search/binarytree_search.o: search/binarytree_search.c.o
 
 .PHONY : search/binarytree_search.o
@@ -420,6 +447,33 @@ test.c.s:
 	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/test.c.s
 .PHONY : test.c.s
 
+util/2-3tree.o: util/2-3tree.c.o
+
+.PHONY : util/2-3tree.o
+
+# target to build an object file
+util/2-3tree.c.o:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/2-3tree.c.o
+.PHONY : util/2-3tree.c.o
+
+util/2-3tree.i: util/2-3tree.c.i
+
+.PHONY : util/2-3tree.i
+
+# target to preprocess a source file
+util/2-3tree.c.i:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/2-3tree.c.i
+.PHONY : util/2-3tree.c.i
+
+util/2-3tree.s: util/2-3tree.c.s
+
+.PHONY : util/2-3tree.s
+
+# target to generate assembly for a file
+util/2-3tree.c.s:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/2-3tree.c.s
+.PHONY : util/2-3tree.c.s
+
 util/binaryTree.o: util/binaryTree.c.o
 
 .PHONY : util/binaryTree.o
@@ -564,6 +618,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... demo2"
+	@echo "... search/2_3tree_search.o"
+	@echo "... search/2_3tree_search.i"
+	@echo "... search/2_3tree_search.s"
 	@echo "... search/binarytree_search.o"
 	@echo "... search/binarytree_search.i"
 	@echo "... search/binarytree_search.s"
@@ -597,6 +654,9 @@ help:
 	@echo "... test.o"
 	@echo "... test.i"
 	@echo "... test.s"
+	@echo "... util/2-3tree.o"
+	@echo "... util/2-3tree.i"
+	@echo "... util/2-3tree.s"
 	@echo "... util/binaryTree.o"
 	@echo "... util/binaryTree.i"
 	@echo "... util/binaryTree.s"
