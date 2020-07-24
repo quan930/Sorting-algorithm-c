@@ -2,23 +2,13 @@
 #include "stdlib.h"
 #include "stdio.h"
 #include "../header/queue.h"
+#include "../header/coloredfont.h"
 
 //
 // Created by 全 on 2020/7/24.
 // 实现旋转插入操作 参照已经整理好的博客 如下
 // https://www.jianshu.com/p/b468a454b159
 //
-
-/**
- * 输出红色字体
- * @param fonts
- * @param ...
- */
-void print_red_font(char* fonts,int fontslen, restric,...){
-    char arr[fontslen];
-    sprintf(arr,fonts,restric);
-    printf("\033[1;31m%s\033[0m",arr);
-}
 
 /**
  * 释放-1节点
@@ -104,8 +94,7 @@ void print_rbtree(red_black_tree * redBlackTree){
             ter1+=3;
         }
         if (node->color==RED && node->key!=-1){
-//            printf("\033[1;31m( %5d )\033[0m",node->key);
-            print_red_font("( %5d )",9,node->key);
+            print_colors_font(REDS,"( %5d )",9,node->key);
         } else{
             node->key!=-1?printf("( %5d )",node->key):printf("         ");
         }

@@ -14,6 +14,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/demo2.dir/test.c.o"
   "CMakeFiles/demo2.dir/util/2-3tree.c.o"
   "CMakeFiles/demo2.dir/util/binaryTree.c.o"
+  "CMakeFiles/demo2.dir/util/coloredfont.c.o"
   "CMakeFiles/demo2.dir/util/heap.c.o"
   "CMakeFiles/demo2.dir/util/linked_list.c.o"
   "CMakeFiles/demo2.dir/util/queue.c.o"

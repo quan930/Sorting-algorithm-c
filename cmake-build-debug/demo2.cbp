@@ -84,6 +84,9 @@
 		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/header/binaryTree.h">
 			<Option target="demo2"/>
 		</Unit>
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/header/coloredfont.h">
+			<Option target="demo2"/>
+		</Unit>
 		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/header/heap.h">
 			<Option target="demo2"/>
 		</Unit>
@@ -148,6 +151,9 @@
 			<Option target="demo2"/>
 		</Unit>
 		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/util/binaryTree.c">
+			<Option target="demo2"/>
+		</Unit>
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/util/coloredfont.c">
 			<Option target="demo2"/>
 		</Unit>
 		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/util/heap.c">

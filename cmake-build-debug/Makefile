@@ -528,6 +528,33 @@ util/binaryTree.c.s:
 	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/binaryTree.c.s
 .PHONY : util/binaryTree.c.s
 
+util/coloredfont.o: util/coloredfont.c.o
+
+.PHONY : util/coloredfont.o
+
+# target to build an object file
+util/coloredfont.c.o:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/coloredfont.c.o
+.PHONY : util/coloredfont.c.o
+
+util/coloredfont.i: util/coloredfont.c.i
+
+.PHONY : util/coloredfont.i
+
+# target to preprocess a source file
+util/coloredfont.c.i:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/coloredfont.c.i
+.PHONY : util/coloredfont.c.i
+
+util/coloredfont.s: util/coloredfont.c.s
+
+.PHONY : util/coloredfont.s
+
+# target to generate assembly for a file
+util/coloredfont.c.s:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/coloredfont.c.s
+.PHONY : util/coloredfont.c.s
+
 util/heap.o: util/heap.c.o
 
 .PHONY : util/heap.o
@@ -717,6 +744,9 @@ help:
 	@echo "... util/binaryTree.o"
 	@echo "... util/binaryTree.i"
 	@echo "... util/binaryTree.s"
+	@echo "... util/coloredfont.o"
+	@echo "... util/coloredfont.i"
+	@echo "... util/coloredfont.s"
 	@echo "... util/heap.o"
 	@echo "... util/heap.i"
 	@echo "... util/heap.s"

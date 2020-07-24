@@ -47,6 +47,9 @@ CMakeFiles/demo2.dir/util/binaryTree.c.o: ../header/binaryTree.h
 CMakeFiles/demo2.dir/util/binaryTree.c.o: ../header/queue.h
 CMakeFiles/demo2.dir/util/binaryTree.c.o: ../util/binaryTree.c
 
+CMakeFiles/demo2.dir/util/coloredfont.c.o: ../header/coloredfont.h
+CMakeFiles/demo2.dir/util/coloredfont.c.o: ../util/coloredfont.c
+
 CMakeFiles/demo2.dir/util/heap.c.o: ../util/heap.c
 
 CMakeFiles/demo2.dir/util/linked_list.c.o: ../header/linked_list.h
@@ -59,6 +62,7 @@ CMakeFiles/demo2.dir/util/queue.c.o: ../util/queue.c
 CMakeFiles/demo2.dir/util/random_data.c.o: ../util/random_data.c
 
 CMakeFiles/demo2.dir/util/redBlackTree.c.o: ../header/binaryTree.h
+CMakeFiles/demo2.dir/util/redBlackTree.c.o: ../header/coloredfont.h
 CMakeFiles/demo2.dir/util/redBlackTree.c.o: ../header/queue.h
 CMakeFiles/demo2.dir/util/redBlackTree.c.o: ../header/redBlackTree.h
 CMakeFiles/demo2.dir/util/redBlackTree.c.o: ../util/redBlackTree.c
