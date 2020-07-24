@@ -6,7 +6,8 @@
 //#include <limits.h>
 
 //#define LENGTH 100000
-#define LENGTH 20
+#define LENGTH 2000000
+#define LENGTH2 10000
 /**
  * 80 ok
  *  bug
@@ -35,22 +36,46 @@ int sort(){
 
 int main(){
     int array[LENGTH];
-    int range=2000;
+    int range=2000000;
     double time;
-    printf("length:%d\trange:0~%d\n",LENGTH,range);
     int *testarr = random_data(array,LENGTH,range);
-    //排序 极端情况
-//    merge_sort(random_data(array,LENGTH,range),LENGTH);
-
+    printf("--------------随机插入--------------------\n");
+    printf("length:%d\trange:0~%d\n",LENGTH,range);
     //二叉搜索树
     TreeNode *treeNode = NULL;
     treeNode = binarytree_search_assemble(testarr,LENGTH,treeNode,&time);
     printf("二叉树装配时间:\t%f秒\n",time);
     printf("二叉树查询时间:\t%f秒\n",binarytree_search(testarr,LENGTH,treeNode));
-
     //2-3树
     two_three_tree *twoThreeTree=NULL;
     twoThreeTree = twothreetree_search_assemble(testarr,LENGTH,twoThreeTree,&time);
     printf("2-3树装配时间:\t%f秒\n",time);
     printf("2-3树查询时间:\t%f秒\n",twothreetree_search(testarr,LENGTH,twoThreeTree));
+    //红黑树
+    red_black_tree *redBlackTree=NULL;
+    redBlackTree = redblacktree_search_assemble(testarr,LENGTH,redBlackTree,&time);
+    printf("红黑树装配时间:\t%f秒\n",time);
+    printf("红黑树查询时间:\t%f秒\n",redblacktree_search(testarr,LENGTH,redBlackTree));
+
+
+    //排序 极端情况
+    testarr = random_data(array,LENGTH2,range);
+    merge_sort(random_data(array,LENGTH,range),LENGTH);
+    printf("\n--------------顺序插入--------------------\n");
+    printf("length:%d\trange:0~%d\n",LENGTH2,range);
+    TreeNode *treeNode2 = NULL;
+    treeNode2 = binarytree_search_assemble(testarr,LENGTH2,treeNode2,&time);
+    printf("二叉树装配时间:\t%f秒\n",time);
+    printf("二叉树查询时间:\t%f秒\n",binarytree_search(testarr,LENGTH2,treeNode2));
+    //2-3树
+    two_three_tree *twoThreeTree2=NULL;
+    twoThreeTree2 = twothreetree_search_assemble(testarr,LENGTH2,twoThreeTree2,&time);
+    printf("2-3树装配时间:\t%f秒\n",time);
+    printf("2-3树查询时间:\t%f秒\n",twothreetree_search(testarr,LENGTH2,twoThreeTree2));
+    //红黑树
+    red_black_tree *redBlackTree2=NULL;
+    redBlackTree2 = redblacktree_search_assemble(testarr,LENGTH2,redBlackTree2,&time);
+    printf("红黑树装配时间:\t%f秒\n",time);
+    printf("红黑树查询时间:\t%f秒\n",redblacktree_search(testarr,LENGTH2,redBlackTree2));
+
 }

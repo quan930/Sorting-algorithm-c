@@ -177,6 +177,33 @@ search/binarytree_search.c.s:
 	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/search/binarytree_search.c.s
 .PHONY : search/binarytree_search.c.s
 
+search/red_blacktree_search.o: search/red_blacktree_search.c.o
+
+.PHONY : search/red_blacktree_search.o
+
+# target to build an object file
+search/red_blacktree_search.c.o:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/search/red_blacktree_search.c.o
+.PHONY : search/red_blacktree_search.c.o
+
+search/red_blacktree_search.i: search/red_blacktree_search.c.i
+
+.PHONY : search/red_blacktree_search.i
+
+# target to preprocess a source file
+search/red_blacktree_search.c.i:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/search/red_blacktree_search.c.i
+.PHONY : search/red_blacktree_search.c.i
+
+search/red_blacktree_search.s: search/red_blacktree_search.c.s
+
+.PHONY : search/red_blacktree_search.s
+
+# target to generate assembly for a file
+search/red_blacktree_search.c.s:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/search/red_blacktree_search.c.s
+.PHONY : search/red_blacktree_search.c.s
+
 sort/bubble_sort.o: sort/bubble_sort.c.o
 
 .PHONY : sort/bubble_sort.o
@@ -609,6 +636,33 @@ util/random_data.c.s:
 	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/random_data.c.s
 .PHONY : util/random_data.c.s
 
+util/redBlackTree.o: util/redBlackTree.c.o
+
+.PHONY : util/redBlackTree.o
+
+# target to build an object file
+util/redBlackTree.c.o:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/redBlackTree.c.o
+.PHONY : util/redBlackTree.c.o
+
+util/redBlackTree.i: util/redBlackTree.c.i
+
+.PHONY : util/redBlackTree.i
+
+# target to preprocess a source file
+util/redBlackTree.c.i:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/redBlackTree.c.i
+.PHONY : util/redBlackTree.c.i
+
+util/redBlackTree.s: util/redBlackTree.c.s
+
+.PHONY : util/redBlackTree.s
+
+# target to generate assembly for a file
+util/redBlackTree.c.s:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/redBlackTree.c.s
+.PHONY : util/redBlackTree.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -624,6 +678,9 @@ help:
 	@echo "... search/binarytree_search.o"
 	@echo "... search/binarytree_search.i"
 	@echo "... search/binarytree_search.s"
+	@echo "... search/red_blacktree_search.o"
+	@echo "... search/red_blacktree_search.i"
+	@echo "... search/red_blacktree_search.s"
 	@echo "... sort/bubble_sort.o"
 	@echo "... sort/bubble_sort.i"
 	@echo "... sort/bubble_sort.s"
@@ -672,6 +729,9 @@ help:
 	@echo "... util/random_data.o"
 	@echo "... util/random_data.i"
 	@echo "... util/random_data.s"
+	@echo "... util/redBlackTree.o"
+	@echo "... util/redBlackTree.i"
+	@echo "... util/redBlackTree.s"
 .PHONY : help
 
 

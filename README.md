@@ -15,7 +15,8 @@
 # Search-algorithm-c
 搜索算法-c
 + [二叉搜索树-Binary Search Tree](https://github.com/quan930/algorithm-c/blob/master/search/binarytree_search.c)
-+ [2-3树-2-3Tree](https://github.com/quan930/algorithm-c/blob/master/search/2_3tree_search.c)
++ [2-3树-2-3 Tree](https://github.com/quan930/algorithm-c/blob/master/search/2_3tree_search.c)
++ [红黑树-red-black Tree](https://github.com/quan930/algorithm-c/blob/master/search/red_blacktree_search.c)
 
 # Test
 测试

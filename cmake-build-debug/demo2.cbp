@@ -96,6 +96,9 @@
 		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/header/random_data.h">
 			<Option target="demo2"/>
 		</Unit>
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/header/redBlackTree.h">
+			<Option target="demo2"/>
+		</Unit>
 		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/header/search.h">
 			<Option target="demo2"/>
 		</Unit>
@@ -106,6 +109,9 @@
 			<Option target="demo2"/>
 		</Unit>
 		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/search/binarytree_search.c">
+			<Option target="demo2"/>
+		</Unit>
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/search/red_blacktree_search.c">
 			<Option target="demo2"/>
 		</Unit>
 		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/sort/bubble_sort.c">
@@ -154,6 +160,9 @@
 			<Option target="demo2"/>
 		</Unit>
 		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/util/random_data.c">
+			<Option target="demo2"/>
+		</Unit>
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/util/redBlackTree.c">
 			<Option target="demo2"/>
 		</Unit>
 		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/CMakeLists.txt">

@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/demo2.dir/search/2_3tree_search.c.o"
   "CMakeFiles/demo2.dir/search/binarytree_search.c.o"
+  "CMakeFiles/demo2.dir/search/red_blacktree_search.c.o"
   "CMakeFiles/demo2.dir/sort/bubble_sort.c.o"
   "CMakeFiles/demo2.dir/sort/bucket_sort.c.o"
   "CMakeFiles/demo2.dir/sort/counting_sort.c.o"
@@ -17,6 +18,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/demo2.dir/util/linked_list.c.o"
   "CMakeFiles/demo2.dir/util/queue.c.o"
   "CMakeFiles/demo2.dir/util/random_data.c.o"
+  "CMakeFiles/demo2.dir/util/redBlackTree.c.o"
   "demo2"
   "demo2.pdb"
 )

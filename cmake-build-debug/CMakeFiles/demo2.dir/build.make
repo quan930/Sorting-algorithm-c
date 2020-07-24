@@ -291,6 +291,32 @@ CMakeFiles/demo2.dir/search/2_3tree_search.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/demo2.dir/search/2_3tree_search.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daquan/CLionProjects/algorithm-c/search/2_3tree_search.c -o CMakeFiles/demo2.dir/search/2_3tree_search.c.s
 
+CMakeFiles/demo2.dir/util/redBlackTree.c.o: CMakeFiles/demo2.dir/flags.make
+CMakeFiles/demo2.dir/util/redBlackTree.c.o: ../util/redBlackTree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/demo2.dir/util/redBlackTree.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/demo2.dir/util/redBlackTree.c.o   -c /Users/daquan/CLionProjects/algorithm-c/util/redBlackTree.c
+
+CMakeFiles/demo2.dir/util/redBlackTree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/demo2.dir/util/redBlackTree.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daquan/CLionProjects/algorithm-c/util/redBlackTree.c > CMakeFiles/demo2.dir/util/redBlackTree.c.i
+
+CMakeFiles/demo2.dir/util/redBlackTree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/demo2.dir/util/redBlackTree.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daquan/CLionProjects/algorithm-c/util/redBlackTree.c -o CMakeFiles/demo2.dir/util/redBlackTree.c.s
+
+CMakeFiles/demo2.dir/search/red_blacktree_search.c.o: CMakeFiles/demo2.dir/flags.make
+CMakeFiles/demo2.dir/search/red_blacktree_search.c.o: ../search/red_blacktree_search.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/demo2.dir/search/red_blacktree_search.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/demo2.dir/search/red_blacktree_search.c.o   -c /Users/daquan/CLionProjects/algorithm-c/search/red_blacktree_search.c
+
+CMakeFiles/demo2.dir/search/red_blacktree_search.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/demo2.dir/search/red_blacktree_search.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/daquan/CLionProjects/algorithm-c/search/red_blacktree_search.c > CMakeFiles/demo2.dir/search/red_blacktree_search.c.i
+
+CMakeFiles/demo2.dir/search/red_blacktree_search.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/demo2.dir/search/red_blacktree_search.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/daquan/CLionProjects/algorithm-c/search/red_blacktree_search.c -o CMakeFiles/demo2.dir/search/red_blacktree_search.c.s
+
 # Object files for target demo2
 demo2_OBJECTS = \
 "CMakeFiles/demo2.dir/test.c.o" \
@@ -310,7 +336,9 @@ demo2_OBJECTS = \
 "CMakeFiles/demo2.dir/util/queue.c.o" \
 "CMakeFiles/demo2.dir/search/binarytree_search.c.o" \
 "CMakeFiles/demo2.dir/util/2-3tree.c.o" \
-"CMakeFiles/demo2.dir/search/2_3tree_search.c.o"
+"CMakeFiles/demo2.dir/search/2_3tree_search.c.o" \
+"CMakeFiles/demo2.dir/util/redBlackTree.c.o" \
+"CMakeFiles/demo2.dir/search/red_blacktree_search.c.o"
 
 # External object files for target demo2
 demo2_EXTERNAL_OBJECTS =
@@ -333,9 +361,11 @@ demo2: CMakeFiles/demo2.dir/util/queue.c.o
 demo2: CMakeFiles/demo2.dir/search/binarytree_search.c.o
 demo2: CMakeFiles/demo2.dir/util/2-3tree.c.o
 demo2: CMakeFiles/demo2.dir/search/2_3tree_search.c.o
+demo2: CMakeFiles/demo2.dir/util/redBlackTree.c.o
+demo2: CMakeFiles/demo2.dir/search/red_blacktree_search.c.o
 demo2: CMakeFiles/demo2.dir/build.make
 demo2: CMakeFiles/demo2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking C executable demo2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking C executable demo2"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/demo2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

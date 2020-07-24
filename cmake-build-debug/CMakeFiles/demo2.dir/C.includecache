@@ -6,29 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/Users/daquan/CLionProjects/algorithm-c/header/2-3tree.h
-
 /Users/daquan/CLionProjects/algorithm-c/header/binaryTree.h
 
-/Users/daquan/CLionProjects/algorithm-c/header/random_data.h
-
-/Users/daquan/CLionProjects/algorithm-c/header/search.h
+/Users/daquan/CLionProjects/algorithm-c/header/queue.h
 binaryTree.h
 /Users/daquan/CLionProjects/algorithm-c/header/binaryTree.h
-2-3tree.h
-/Users/daquan/CLionProjects/algorithm-c/header/2-3tree.h
 
-/Users/daquan/CLionProjects/algorithm-c/header/sort.h
+/Users/daquan/CLionProjects/algorithm-c/header/redBlackTree.h
 
-/Users/daquan/CLionProjects/algorithm-c/test.c
+/Users/daquan/CLionProjects/algorithm-c/util/redBlackTree.c
+../header/redBlackTree.h
+/Users/daquan/CLionProjects/algorithm-c/header/redBlackTree.h
+stdlib.h
+/Users/daquan/CLionProjects/algorithm-c/util/stdlib.h
 stdio.h
-/Users/daquan/CLionProjects/algorithm-c/stdio.h
-header/random_data.h
-/Users/daquan/CLionProjects/algorithm-c/header/random_data.h
-header/sort.h
-/Users/daquan/CLionProjects/algorithm-c/header/sort.h
-header/search.h
-/Users/daquan/CLionProjects/algorithm-c/header/search.h
-header/2-3tree.h
-/Users/daquan/CLionProjects/algorithm-c/header/2-3tree.h
+/Users/daquan/CLionProjects/algorithm-c/util/stdio.h
+../header/queue.h
+/Users/daquan/CLionProjects/algorithm-c/header/queue.h
 
