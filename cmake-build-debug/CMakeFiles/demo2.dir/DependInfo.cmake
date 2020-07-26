@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/daquan/CLionProjects/algorithm-c/search/2_3tree_search.c" "/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/CMakeFiles/demo2.dir/search/2_3tree_search.c.o"
+  "/Users/daquan/CLionProjects/algorithm-c/search/avltree_search.c" "/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/CMakeFiles/demo2.dir/search/avltree_search.c.o"
   "/Users/daquan/CLionProjects/algorithm-c/search/binarytree_search.c" "/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/CMakeFiles/demo2.dir/search/binarytree_search.c.o"
   "/Users/daquan/CLionProjects/algorithm-c/search/red_blacktree_search.c" "/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/CMakeFiles/demo2.dir/search/red_blacktree_search.c.o"
   "/Users/daquan/CLionProjects/algorithm-c/sort/bubble_sort.c" "/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/CMakeFiles/demo2.dir/sort/bubble_sort.c.o"
@@ -18,6 +19,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/daquan/CLionProjects/algorithm-c/sort/shell_sort.c" "/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/CMakeFiles/demo2.dir/sort/shell_sort.c.o"
   "/Users/daquan/CLionProjects/algorithm-c/test.c" "/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/CMakeFiles/demo2.dir/test.c.o"
   "/Users/daquan/CLionProjects/algorithm-c/util/2-3tree.c" "/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/CMakeFiles/demo2.dir/util/2-3tree.c.o"
+  "/Users/daquan/CLionProjects/algorithm-c/util/avlTree.c" "/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/CMakeFiles/demo2.dir/util/avlTree.c.o"
   "/Users/daquan/CLionProjects/algorithm-c/util/binaryTree.c" "/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/CMakeFiles/demo2.dir/util/binaryTree.c.o"
   "/Users/daquan/CLionProjects/algorithm-c/util/coloredfont.c" "/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/CMakeFiles/demo2.dir/util/coloredfont.c.o"
   "/Users/daquan/CLionProjects/algorithm-c/util/heap.c" "/Users/daquan/CLionProjects/algorithm-c/cmake-build-debug/CMakeFiles/demo2.dir/util/heap.c.o"

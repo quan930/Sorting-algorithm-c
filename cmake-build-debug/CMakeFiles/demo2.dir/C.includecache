@@ -8,6 +8,8 @@
 
 /Users/daquan/CLionProjects/algorithm-c/header/2-3tree.h
 
+/Users/daquan/CLionProjects/algorithm-c/header/avlTree.h
+
 /Users/daquan/CLionProjects/algorithm-c/header/binaryTree.h
 
 /Users/daquan/CLionProjects/algorithm-c/header/random_data.h
@@ -21,16 +23,10 @@ binaryTree.h
 /Users/daquan/CLionProjects/algorithm-c/header/2-3tree.h
 redBlackTree.h
 /Users/daquan/CLionProjects/algorithm-c/header/redBlackTree.h
+avlTree.h
+/Users/daquan/CLionProjects/algorithm-c/header/avlTree.h
 
 /Users/daquan/CLionProjects/algorithm-c/header/sort.h
-
-/Users/daquan/CLionProjects/algorithm-c/search/red_blacktree_search.c
-../header/redBlackTree.h
-/Users/daquan/CLionProjects/algorithm-c/header/redBlackTree.h
-stdio.h
-/Users/daquan/CLionProjects/algorithm-c/search/stdio.h
-time.h
-/Users/daquan/CLionProjects/algorithm-c/search/time.h
 
 /Users/daquan/CLionProjects/algorithm-c/test.c
 stdio.h

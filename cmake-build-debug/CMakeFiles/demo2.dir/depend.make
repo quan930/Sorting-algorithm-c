@@ -4,6 +4,9 @@
 CMakeFiles/demo2.dir/search/2_3tree_search.c.o: ../header/2-3tree.h
 CMakeFiles/demo2.dir/search/2_3tree_search.c.o: ../search/2_3tree_search.c
 
+CMakeFiles/demo2.dir/search/avltree_search.c.o: ../header/avlTree.h
+CMakeFiles/demo2.dir/search/avltree_search.c.o: ../search/avltree_search.c
+
 CMakeFiles/demo2.dir/search/binarytree_search.c.o: ../header/binaryTree.h
 CMakeFiles/demo2.dir/search/binarytree_search.c.o: ../search/binarytree_search.c
 
@@ -31,6 +34,7 @@ CMakeFiles/demo2.dir/sort/selection_sort.c.o: ../sort/selection_sort.c
 CMakeFiles/demo2.dir/sort/shell_sort.c.o: ../sort/shell_sort.c
 
 CMakeFiles/demo2.dir/test.c.o: ../header/2-3tree.h
+CMakeFiles/demo2.dir/test.c.o: ../header/avlTree.h
 CMakeFiles/demo2.dir/test.c.o: ../header/binaryTree.h
 CMakeFiles/demo2.dir/test.c.o: ../header/random_data.h
 CMakeFiles/demo2.dir/test.c.o: ../header/redBlackTree.h
@@ -42,6 +46,12 @@ CMakeFiles/demo2.dir/util/2-3tree.c.o: ../header/2-3tree.h
 CMakeFiles/demo2.dir/util/2-3tree.c.o: ../header/binaryTree.h
 CMakeFiles/demo2.dir/util/2-3tree.c.o: ../header/queue.h
 CMakeFiles/demo2.dir/util/2-3tree.c.o: ../util/2-3tree.c
+
+CMakeFiles/demo2.dir/util/avlTree.c.o: ../header/avlTree.h
+CMakeFiles/demo2.dir/util/avlTree.c.o: ../header/binaryTree.h
+CMakeFiles/demo2.dir/util/avlTree.c.o: ../header/coloredfont.h
+CMakeFiles/demo2.dir/util/avlTree.c.o: ../header/queue.h
+CMakeFiles/demo2.dir/util/avlTree.c.o: ../util/avlTree.c
 
 CMakeFiles/demo2.dir/util/binaryTree.c.o: ../header/binaryTree.h
 CMakeFiles/demo2.dir/util/binaryTree.c.o: ../header/queue.h

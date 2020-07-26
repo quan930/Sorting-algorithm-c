@@ -4,6 +4,9 @@
 CMakeFiles/demo2.dir/search/2_3tree_search.c.o
  /Users/daquan/CLionProjects/algorithm-c/header/2-3tree.h
  /Users/daquan/CLionProjects/algorithm-c/search/2_3tree_search.c
+CMakeFiles/demo2.dir/search/avltree_search.c.o
+ /Users/daquan/CLionProjects/algorithm-c/header/avlTree.h
+ /Users/daquan/CLionProjects/algorithm-c/search/avltree_search.c
 CMakeFiles/demo2.dir/search/binarytree_search.c.o
  /Users/daquan/CLionProjects/algorithm-c/header/binaryTree.h
  /Users/daquan/CLionProjects/algorithm-c/search/binarytree_search.c
@@ -32,6 +35,7 @@ CMakeFiles/demo2.dir/sort/shell_sort.c.o
  /Users/daquan/CLionProjects/algorithm-c/sort/shell_sort.c
 CMakeFiles/demo2.dir/test.c.o
  /Users/daquan/CLionProjects/algorithm-c/header/2-3tree.h
+ /Users/daquan/CLionProjects/algorithm-c/header/avlTree.h
  /Users/daquan/CLionProjects/algorithm-c/header/binaryTree.h
  /Users/daquan/CLionProjects/algorithm-c/header/random_data.h
  /Users/daquan/CLionProjects/algorithm-c/header/redBlackTree.h
@@ -43,6 +47,12 @@ CMakeFiles/demo2.dir/util/2-3tree.c.o
  /Users/daquan/CLionProjects/algorithm-c/header/binaryTree.h
  /Users/daquan/CLionProjects/algorithm-c/header/queue.h
  /Users/daquan/CLionProjects/algorithm-c/util/2-3tree.c
+CMakeFiles/demo2.dir/util/avlTree.c.o
+ /Users/daquan/CLionProjects/algorithm-c/header/avlTree.h
+ /Users/daquan/CLionProjects/algorithm-c/header/binaryTree.h
+ /Users/daquan/CLionProjects/algorithm-c/header/coloredfont.h
+ /Users/daquan/CLionProjects/algorithm-c/header/queue.h
+ /Users/daquan/CLionProjects/algorithm-c/util/avlTree.c
 CMakeFiles/demo2.dir/util/binaryTree.c.o
  /Users/daquan/CLionProjects/algorithm-c/header/binaryTree.h
  /Users/daquan/CLionProjects/algorithm-c/header/queue.h

@@ -150,6 +150,33 @@ search/2_3tree_search.c.s:
 	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/search/2_3tree_search.c.s
 .PHONY : search/2_3tree_search.c.s
 
+search/avltree_search.o: search/avltree_search.c.o
+
+.PHONY : search/avltree_search.o
+
+# target to build an object file
+search/avltree_search.c.o:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/search/avltree_search.c.o
+.PHONY : search/avltree_search.c.o
+
+search/avltree_search.i: search/avltree_search.c.i
+
+.PHONY : search/avltree_search.i
+
+# target to preprocess a source file
+search/avltree_search.c.i:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/search/avltree_search.c.i
+.PHONY : search/avltree_search.c.i
+
+search/avltree_search.s: search/avltree_search.c.s
+
+.PHONY : search/avltree_search.s
+
+# target to generate assembly for a file
+search/avltree_search.c.s:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/search/avltree_search.c.s
+.PHONY : search/avltree_search.c.s
+
 search/binarytree_search.o: search/binarytree_search.c.o
 
 .PHONY : search/binarytree_search.o
@@ -501,6 +528,33 @@ util/2-3tree.c.s:
 	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/2-3tree.c.s
 .PHONY : util/2-3tree.c.s
 
+util/avlTree.o: util/avlTree.c.o
+
+.PHONY : util/avlTree.o
+
+# target to build an object file
+util/avlTree.c.o:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/avlTree.c.o
+.PHONY : util/avlTree.c.o
+
+util/avlTree.i: util/avlTree.c.i
+
+.PHONY : util/avlTree.i
+
+# target to preprocess a source file
+util/avlTree.c.i:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/avlTree.c.i
+.PHONY : util/avlTree.c.i
+
+util/avlTree.s: util/avlTree.c.s
+
+.PHONY : util/avlTree.s
+
+# target to generate assembly for a file
+util/avlTree.c.s:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/avlTree.c.s
+.PHONY : util/avlTree.c.s
+
 util/binaryTree.o: util/binaryTree.c.o
 
 .PHONY : util/binaryTree.o
@@ -702,6 +756,9 @@ help:
 	@echo "... search/2_3tree_search.o"
 	@echo "... search/2_3tree_search.i"
 	@echo "... search/2_3tree_search.s"
+	@echo "... search/avltree_search.o"
+	@echo "... search/avltree_search.i"
+	@echo "... search/avltree_search.s"
 	@echo "... search/binarytree_search.o"
 	@echo "... search/binarytree_search.i"
 	@echo "... search/binarytree_search.s"
@@ -741,6 +798,9 @@ help:
 	@echo "... util/2-3tree.o"
 	@echo "... util/2-3tree.i"
 	@echo "... util/2-3tree.s"
+	@echo "... util/avlTree.o"
+	@echo "... util/avlTree.i"
+	@echo "... util/avlTree.s"
 	@echo "... util/binaryTree.o"
 	@echo "... util/binaryTree.i"
 	@echo "... util/binaryTree.s"

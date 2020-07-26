@@ -56,9 +56,14 @@ int main(){
     redBlackTree = redblacktree_search_assemble(testarr,LENGTH,redBlackTree,&time);
     printf("红黑树装配时间:\t%f秒\n",time);
     printf("红黑树查询时间:\t%f秒\n",redblacktree_search(testarr,LENGTH,redBlackTree));
+    //avl树
+    avl_tree *avlTree=NULL;
+    avlTree = avltree_search_assemble(testarr,LENGTH,avlTree,&time);
+    printf("avl树装配时间:\t%f秒\n",time);
+    printf("avl树查询时间:\t%f秒\n",avltree_search(testarr,LENGTH,avlTree));
 
 
-    //排序 极端情况
+//    //排序 极端情况
     testarr = random_data(array,LENGTH2,range);
     merge_sort(random_data(array,LENGTH,range),LENGTH);
     printf("\n--------------顺序插入--------------------\n");
@@ -77,5 +82,9 @@ int main(){
     redBlackTree2 = redblacktree_search_assemble(testarr,LENGTH2,redBlackTree2,&time);
     printf("红黑树装配时间:\t%f秒\n",time);
     printf("红黑树查询时间:\t%f秒\n",redblacktree_search(testarr,LENGTH2,redBlackTree2));
-
+    //avl 树
+    avl_tree *avlTree2=NULL;
+    avlTree2 = avltree_search_assemble(testarr,LENGTH2,avlTree2,&time);
+    printf("avl树装配时间:\t%f秒\n",time);
+    printf("avl树查询时间:\t%f秒\n",avltree_search(testarr,LENGTH2,avlTree2));
 }
