@@ -1,5 +1,7 @@
 //
 // Created by 全 on 2020/7/25.
+// 实现操作过程 参照已经整理好的博客 如下
+// https://www.jianshu.com/p/98ce93fdf610
 //
 #include "../header/avlTree.h"
 #include "stdlib.h"
