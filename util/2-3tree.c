@@ -1,6 +1,5 @@
 //
 // Created by 全 on 2020/7/20.
-// 打印方法存在 异常可能性 可能会破坏2-3树的结构 连续打印树结构会出现异常 仅仅打印一次用于观察树结构没有影响
 //
 #include "../header/2-3tree.h"
 #include "stdlib.h"
@@ -273,12 +272,12 @@ two_three_tree* two_three_tree_insert(two_three_tree *twoThreeTree,int value){
     /**
      * 增加数值 检查/修改节点
      */
-     if (treeNode->len==1){
-         treeNode->keys[1]=value;
-         treeNode->len++;
-         _sort(treeNode->keys,2);
-         return twoThreeTree;
-     }
+    if (treeNode->len==1){
+        treeNode->keys[1]=value;
+        treeNode->len++;
+        _sort(treeNode->keys,2);
+        return twoThreeTree;
+    }
     treeNode->keys[2]=value;
     treeNode->len++;
     _sort(treeNode->keys,3);
@@ -301,32 +300,6 @@ int _get_23tree_depth(two_three_tree * twoThreeTree){
 }
 
 /**
- * 释放-1节点
- * @param twoThreeTree
- */
-void free23tree_1(two_three_tree *twoThreeTree){
-    if (twoThreeTree!=NULL){
-        if (twoThreeTree->keys[0]==-1){
-//            printf("释放\n");
-            free23tree_1(twoThreeTree->left);
-            free23tree_1(twoThreeTree->middle);
-            free23tree_1(twoThreeTree->right);
-            free(twoThreeTree);
-        } else{
-            if (twoThreeTree->len==1){
-                free23tree_1(twoThreeTree->left);
-                free23tree_1(twoThreeTree->right);
-            }
-            if (twoThreeTree->len==2){
-                free23tree_1(twoThreeTree->left);
-                free23tree_1(twoThreeTree->middle);
-                free23tree_1(twoThreeTree->right);
-            }
-        }
-    }
-}
-
-/**
  * 打印2-3 树
  * @param twoThreeTree
  */
@@ -340,13 +313,16 @@ void print23tree(two_three_tree * twoThreeTree){
     value.node = twoThreeTree;
     queue = enqueue(queue,value);
     two_three_tree *node;
-    two_three_tree *treeNodeTemp;//临时节点
+    two_three_tree treeNodeTemp={.keys={-1},.len=2};//临时节点
     int *prindex = calloc((int)pow(3,depth-1)+1,sizeof(int));//记录竖线位置
     int ter1=0;
     int ter2=0;
     int space_length;//空格长度
     int horizontal_length;//横线长度
     while (isEmpty(queue)&&indexlevel<=depth){
+        /**
+         * 计算空格和横线长度
+         */
         if ((depth-indexlevel)==0){
             space_length=0;
         } else{
@@ -355,6 +331,10 @@ void print23tree(two_three_tree * twoThreeTree){
         horizontal_length = (int)pow(3,depth-indexlevel)*17-2*space_length-17;
         horizontal_length = horizontal_length/2;
 
+        /**
+         * 打印单个结点 空格 横线 数据 横线 空格
+         * 记录下一行`|`出现的位置
+         */
         ter1=0;
         ter1+=ter2;
         ter2=0;
@@ -369,11 +349,9 @@ void print23tree(two_three_tree * twoThreeTree){
             node->keys[0]==-1?printf(" "):printf("-");
             ter1+=1;
         }
-
         if(node->len==1){//2节点
             printf("(    %6d     )",node->keys[0]);
             prindex[(int)pow(3,indexlevel)-count*3+1]=-1;
-//            prindex[3*(indexlevel-1)+1]=-1;
         } else if(node->keys[0]==-1){
             printf("                 ");
             prindex[(int)pow(3,indexlevel)-count*3+1]=-2;
@@ -381,10 +359,8 @@ void print23tree(two_three_tree * twoThreeTree){
             printf("(%6d | %-6d)",node->keys[0],node->keys[1]);
             ter1+=7;
             prindex[(int)pow(3,indexlevel)-count*3+1]=ter1;
-//            prindex[3*(indexlevel-1)+1]=ter1;
             ter1=0;
         }
-
         for (int i = 0; i < horizontal_length; ++i) {
             node->keys[0]==-1?printf(" "):printf("-");
             ter1+=1;
@@ -393,67 +369,37 @@ void print23tree(two_three_tree * twoThreeTree){
             printf(" ");
             ter2+=1;
         }
-
         ter1 += node->len!=1&&node->keys[0]!=-1 ? 7:14;
         prindex[(int)pow(3,indexlevel)-count*3+2]=ter1;
         count--;
 
-        if (count==0&&node->left==NULL){
-            printf("\n");
-            break;
+        //加入队列
+        if (node->left!=NULL){//左节点
+            value.node = node->left;
+        } else{
+            value.node = &treeNodeTemp;
         }
-        if (node->len==1){
-            value.node = node->left;
-            queue = enqueue(queue,value);
-            /**
-             * 有错误
-             */
-            treeNodeTemp = calloc(1, sizeof(two_three_tree));
-            value.node = treeNodeTemp;
-            treeNodeTemp->len=2;
-            treeNodeTemp->keys[0]=treeNodeTemp->keys[1]=-1;
-            node->middle=treeNodeTemp;
-            queue = enqueue(queue,value);
+        queue = enqueue(queue,value);
 
-            value.node = node->right;
-            queue = enqueue(queue,value);
-            temp+=3;
-        } else if (node->keys[0]==-1){
-            treeNodeTemp = calloc(1, sizeof(two_three_tree));
-            value.node = treeNodeTemp;
-            treeNodeTemp->len=2;
-            treeNodeTemp->keys[0]=treeNodeTemp->keys[1]=-1;
-            node->left=treeNodeTemp;
-            value.node = treeNodeTemp;
-            queue = enqueue(queue,value);
-
-            treeNodeTemp = calloc(1, sizeof(two_three_tree));
-            value.node = treeNodeTemp;
-            treeNodeTemp->len=2;
-            treeNodeTemp->keys[0]=treeNodeTemp->keys[1]=-1;
-            node->middle=treeNodeTemp;
-            value.node = treeNodeTemp;
-            queue = enqueue(queue,value);
-
-            treeNodeTemp = calloc(1, sizeof(two_three_tree));
-            value.node = treeNodeTemp;
-            treeNodeTemp->len=2;
-            treeNodeTemp->keys[0]=treeNodeTemp->keys[1]=-1;
-            node->right=treeNodeTemp;
-            value.node = treeNodeTemp;
-            queue = enqueue(queue,value);
-
-            temp+=3;
-        }else{
-            value.node = node->left;
-            queue = enqueue(queue,value);
+        if (node->middle!=NULL){//中节点
             value.node = node->middle;
-            queue = enqueue(queue,value);
-            value.node = node->right;
-            queue = enqueue(queue,value);
-            temp+=3;
+        } else{
+            value.node = &treeNodeTemp;
         }
+        queue = enqueue(queue,value);
 
+        if (node->right!=NULL){//右节点
+            value.node = node->right;
+        } else{
+            value.node = &treeNodeTemp;
+        }
+        queue = enqueue(queue,value);
+        temp+=3;
+
+        /**
+         * 当前行已经输出完毕
+         * 给结点增加 枝干
+         */
         if (count==0){
             ter1=0;
             ter2=0;
@@ -491,10 +437,7 @@ void print23tree(two_three_tree * twoThreeTree){
         }
         queue = dequeue(queue);
     }
-    //应该释放 但是有缺陷待解决
-//    free23tree_1(twoThreeTree);
-//    free(prindex);
-//    printf("释放完成\n");
+    free(prindex);
 }
 
 /**

@@ -12,12 +12,6 @@
 
 /Users/daquan/CLionProjects/algorithm-c/header/binaryTree.h
 
-/Users/daquan/CLionProjects/algorithm-c/header/coloredfont.h
-
-/Users/daquan/CLionProjects/algorithm-c/header/queue.h
-binaryTree.h
-/Users/daquan/CLionProjects/algorithm-c/header/binaryTree.h
-
 /Users/daquan/CLionProjects/algorithm-c/header/random_data.h
 
 /Users/daquan/CLionProjects/algorithm-c/header/redBlackTree.h
@@ -34,13 +28,13 @@ avlTree.h
 
 /Users/daquan/CLionProjects/algorithm-c/header/sort.h
 
-/Users/daquan/CLionProjects/algorithm-c/search/avltree_search.c
-../header/avlTree.h
-/Users/daquan/CLionProjects/algorithm-c/header/avlTree.h
-time.h
-/Users/daquan/CLionProjects/algorithm-c/search/time.h
+/Users/daquan/CLionProjects/algorithm-c/search/2_3tree_search.c
+../header/2-3tree.h
+/Users/daquan/CLionProjects/algorithm-c/header/2-3tree.h
 stdio.h
 /Users/daquan/CLionProjects/algorithm-c/search/stdio.h
+time.h
+/Users/daquan/CLionProjects/algorithm-c/search/time.h
 
 /Users/daquan/CLionProjects/algorithm-c/test.c
 stdio.h
@@ -53,16 +47,4 @@ header/search.h
 /Users/daquan/CLionProjects/algorithm-c/header/search.h
 header/2-3tree.h
 /Users/daquan/CLionProjects/algorithm-c/header/2-3tree.h
-
-/Users/daquan/CLionProjects/algorithm-c/util/avlTree.c
-../header/avlTree.h
-/Users/daquan/CLionProjects/algorithm-c/header/avlTree.h
-stdlib.h
-/Users/daquan/CLionProjects/algorithm-c/util/stdlib.h
-stdio.h
-/Users/daquan/CLionProjects/algorithm-c/util/stdio.h
-../header/queue.h
-/Users/daquan/CLionProjects/algorithm-c/header/queue.h
-../header/coloredfont.h
-/Users/daquan/CLionProjects/algorithm-c/header/coloredfont.h
 

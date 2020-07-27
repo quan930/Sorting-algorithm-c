@@ -30,7 +30,7 @@ Queue* dequeue(Queue* queue){
     else{
         Queue *queue1 = queue->first;
         queue->first = queue->first->next;
-        free(queue1);
+//        free(queue1); //应该是释放 但是偶尔会出现异常
         return queue;
     }
 }
