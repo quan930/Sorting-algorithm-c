@@ -3,15 +3,12 @@
 #include "header/sort.h"
 #include "header/search.h"
 #include "header/2-3tree.h"
+#include "header/btree.h"
 //#include <limits.h>
 
 //#define LENGTH 100000
-#define LENGTH 2000000
+#define LENGTH 1000000
 #define LENGTH2 10000
-/**
- * 80 ok
- *  bug
- */
 
 /**
  * 2018-11-9
@@ -36,7 +33,7 @@ int sort(){
 
 int main(){
     int array[LENGTH];
-    int range=2000000;
+    int range=10000000;
     double time;
     int *testarr = random_data(array,LENGTH,range);
     printf("--------------随机插入--------------------\n");
@@ -61,9 +58,14 @@ int main(){
     avlTree = avltree_search_assemble(testarr,LENGTH,avlTree,&time);
     printf("avl树装配时间:\t%f秒\n",time);
     printf("avl树查询时间:\t%f秒\n",avltree_search(testarr,LENGTH,avlTree));
+    //b 树
+    b_tree *bTree=NULL;
+    bTree = btree_search_assemble(testarr,LENGTH,bTree,&time);
+    printf(" b树 装配时间:\t%f秒\n",time);
+    printf(" b树 查询时间:\t%f秒\n",btree_search(testarr,LENGTH,bTree));
 
 
-//    //排序 极端情况
+    //排序 极端情况
     testarr = random_data(array,LENGTH2,range);
     merge_sort(random_data(array,LENGTH,range),LENGTH);
     printf("\n--------------顺序插入--------------------\n");
@@ -87,4 +89,9 @@ int main(){
     avlTree2 = avltree_search_assemble(testarr,LENGTH2,avlTree2,&time);
     printf("avl树装配时间:\t%f秒\n",time);
     printf("avl树查询时间:\t%f秒\n",avltree_search(testarr,LENGTH2,avlTree2));
+    //b 树
+    b_tree *bTree2=NULL;
+    bTree2 = btree_search_assemble(testarr,LENGTH2,bTree2,&time);
+    printf(" b树 装配时间:\t%f秒\n",time);
+    printf(" b树 查询时间:\t%f秒\n",btree_search(testarr,LENGTH2,bTree2));
 }

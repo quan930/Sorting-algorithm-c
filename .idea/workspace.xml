@@ -23,17 +23,13 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo2.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo2.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo2.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo2.dir/link.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo2.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo2.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo2.dir/search/2_3tree_search.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo2.dir/search/2_3tree_search.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo2.dir/test.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo2.dir/test.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo2.dir/util/2-3tree.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo2.dir/util/2-3tree.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo2.dir/util/queue.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo2.dir/util/queue.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/demo2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/demo2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/demo2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/demo2.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header/search.h" beforeDir="false" afterPath="$PROJECT_DIR$/header/search.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.c" beforeDir="false" afterPath="$PROJECT_DIR$/test.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/2-3tree.c" beforeDir="false" afterPath="$PROJECT_DIR$/util/2-3tree.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/queue.c" beforeDir="false" afterPath="$PROJECT_DIR$/util/queue.c" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +151,7 @@
       <workItem from="1547728034284" duration="11984000" />
       <workItem from="1552206697282" duration="60000" />
       <workItem from="1552537149791" duration="3206000" />
-      <workItem from="1594860483731" duration="168349000" />
+      <workItem from="1594860483731" duration="218066000" />
     </task>
     <servers />
   </component>
@@ -181,21 +177,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/search/2_3tree_search.c</url>
-          <line>77</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/test.c</url>
-          <line>50</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -204,6 +204,33 @@ search/binarytree_search.c.s:
 	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/search/binarytree_search.c.s
 .PHONY : search/binarytree_search.c.s
 
+search/btree_search.o: search/btree_search.c.o
+
+.PHONY : search/btree_search.o
+
+# target to build an object file
+search/btree_search.c.o:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/search/btree_search.c.o
+.PHONY : search/btree_search.c.o
+
+search/btree_search.i: search/btree_search.c.i
+
+.PHONY : search/btree_search.i
+
+# target to preprocess a source file
+search/btree_search.c.i:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/search/btree_search.c.i
+.PHONY : search/btree_search.c.i
+
+search/btree_search.s: search/btree_search.c.s
+
+.PHONY : search/btree_search.s
+
+# target to generate assembly for a file
+search/btree_search.c.s:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/search/btree_search.c.s
+.PHONY : search/btree_search.c.s
+
 search/red_blacktree_search.o: search/red_blacktree_search.c.o
 
 .PHONY : search/red_blacktree_search.o
@@ -609,6 +636,33 @@ util/binaryTree.c.s:
 	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/binaryTree.c.s
 .PHONY : util/binaryTree.c.s
 
+util/btree.o: util/btree.c.o
+
+.PHONY : util/btree.o
+
+# target to build an object file
+util/btree.c.o:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/btree.c.o
+.PHONY : util/btree.c.o
+
+util/btree.i: util/btree.c.i
+
+.PHONY : util/btree.i
+
+# target to preprocess a source file
+util/btree.c.i:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/btree.c.i
+.PHONY : util/btree.c.i
+
+util/btree.s: util/btree.c.s
+
+.PHONY : util/btree.s
+
+# target to generate assembly for a file
+util/btree.c.s:
+	$(MAKE) -f CMakeFiles/demo2.dir/build.make CMakeFiles/demo2.dir/util/btree.c.s
+.PHONY : util/btree.c.s
+
 util/coloredfont.o: util/coloredfont.c.o
 
 .PHONY : util/coloredfont.o
@@ -789,6 +843,9 @@ help:
 	@echo "... search/binarytree_search.o"
 	@echo "... search/binarytree_search.i"
 	@echo "... search/binarytree_search.s"
+	@echo "... search/btree_search.o"
+	@echo "... search/btree_search.i"
+	@echo "... search/btree_search.s"
 	@echo "... search/red_blacktree_search.o"
 	@echo "... search/red_blacktree_search.i"
 	@echo "... search/red_blacktree_search.s"
@@ -834,6 +891,9 @@ help:
 	@echo "... util/binaryTree.o"
 	@echo "... util/binaryTree.i"
 	@echo "... util/binaryTree.s"
+	@echo "... util/btree.o"
+	@echo "... util/btree.i"
+	@echo "... util/btree.s"
 	@echo "... util/coloredfont.o"
 	@echo "... util/coloredfont.i"
 	@echo "... util/coloredfont.s"

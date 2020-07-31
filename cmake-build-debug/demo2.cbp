@@ -90,6 +90,9 @@
 		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/header/binaryTree.h">
 			<Option target="demo2"/>
 		</Unit>
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/header/btree.h">
+			<Option target="demo2"/>
+		</Unit>
 		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/header/coloredfont.h">
 			<Option target="demo2"/>
 		</Unit>
@@ -121,6 +124,9 @@
 			<Option target="demo2"/>
 		</Unit>
 		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/search/binarytree_search.c">
+			<Option target="demo2"/>
+		</Unit>
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/search/btree_search.c">
 			<Option target="demo2"/>
 		</Unit>
 		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/search/red_blacktree_search.c">
@@ -166,6 +172,9 @@
 			<Option target="demo2"/>
 		</Unit>
 		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/util/binaryTree.c">
+			<Option target="demo2"/>
+		</Unit>
+		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/util/btree.c">
 			<Option target="demo2"/>
 		</Unit>
 		<Unit filename="/Users/daquan/CLionProjects/algorithm-c/util/coloredfont.c">
